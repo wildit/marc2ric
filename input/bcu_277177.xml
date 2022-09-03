@@ -1,0 +1,281 @@
+<record schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd" type="Bibliographic">
+      <leader>\\\\\nas\a22\\\\\7\\4500</leader>
+
+      <controlfield tag="001">277177</controlfield>
+      <controlfield tag="005">20220407004642.0</controlfield>
+      <controlfield tag="006">m</controlfield>
+      <controlfield tag="007">c</controlfield>
+      <controlfield tag="008">220406c\\\\\\\\sz\\\\\\\\\\\\00000\fre\d</controlfield>
+      <datafield tag="024" ind1="7" ind2=" ">
+        <subfield code="2">doi</subfield>
+        <subfield code="a">10.22005/bcu.277177</subfield>
+      </datafield>
+      <datafield tag="037" ind1=" " ind2=" ">
+        <subfield code="a">PERIOD_B</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+        <subfield code="a">DLN</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+        <subfield code="a">patrinum</subfield>
+      </datafield>
+      <datafield tag="041" ind1=" " ind2=" ">
+        <subfield code="a">fre</subfield>
+      </datafield>
+      <datafield tag="049" ind1=" " ind2=" ">
+        <subfield code="a">vd</subfield>
+      </datafield>
+      <datafield tag="072" ind1=" " ind2="7">
+        <subfield code="2">patrinum</subfield>
+        <subfield code="a">s1zz</subfield>
+      </datafield>
+      <datafield tag="245" ind1="1" ind2=" ">
+        <subfield code="a">Passion montagne</subfield>
+        <subfield code="b">journal de la section des Diablerets : section lausannoise du Club alpin suisse et sous-sections de Château-d'Oex, Morges, Payerne et Vallorbe</subfield>
+        <subfield code="c">Club alpin suisse</subfield>
+        <subfield code="h">[Ressource électronique]</subfield>
+      </datafield>
+      <datafield tag="260" ind1=" " ind2=" ">
+        <subfield code="b">Club alpin suisse. Section des Diablerets</subfield>
+        <subfield code="0">48243</subfield>
+        <subfield code="a">[Lausanne]</subfield>
+        <subfield code="c">[2010]</subfield>
+      </datafield>
+      <datafield tag="269" ind1=" " ind2=" ">
+        <subfield code="a">[2010]</subfield>
+        <subfield code="b">9999</subfield>
+      </datafield>
+      <datafield tag="310" ind1=" " ind2=" ">
+        <subfield code="a">Bimestriel</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+        <subfield code="a">Revues</subfield>
+      </datafield>
+      <datafield tag="347" ind1=" " ind2=" ">
+        <subfield code="b">Pdf</subfield>
+      </datafield>
+      <datafield tag="362" ind1="0" ind2=" ">
+        <subfield code="a">[Année 86 No 1(septembre 2010)-</subfield>
+      </datafield>
+      <datafield tag="520" ind1="8" ind2=" ">
+        <subfield code="9">vdbcul / 03.2021</subfield>
+      </datafield>
+      <datafield tag="710" ind1="2" ind2=" ">
+        <subfield code="a">Club alpin suisse</subfield>
+        <subfield code="0">241959</subfield>
+      </datafield>
+      <datafield tag="776" ind1="1" ind2=" ">
+        <subfield code="t">Passion montagne : journal de la section des Diablerets, section lausannoise du Club alpin suisse et sous-sections de Château-d'Oex, Morges, Payerne et Vallorbe</subfield>
+        <subfield code="w">991020651289702851</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">a7129c77-9b0e-444c-9786-b5a74829d222</subfield>
+        <subfield code="s">5110905</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2090%C3%A8me%20ann%C3%A9e%20-%20no%201%20janvier-%20f%C3%A9vrier%202014.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">806c59f0-a36c-45ff-84e9-9ad5c965a3f8</subfield>
+        <subfield code="s">4948188</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2090%C3%A8me%20ann%C3%A9e%20-%20no%202%20mars-avril%202014.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">32f5556b-f1cf-442d-a4c9-d513f4c44f04</subfield>
+        <subfield code="s">11239875</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2090%C3%A8me%20ann%C3%A9e%20-%20no%203%20mai-juin%202014.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">013f9e3f-ca30-480a-b903-fd4e29a18c99</subfield>
+        <subfield code="s">10665090</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2090%C3%A8me%20ann%C3%A9e%20-%20no%204%20juillet-ao%C3%BBt%202014.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">3ce2f731-b7f4-4639-8c75-40ed91f4686c</subfield>
+        <subfield code="s">5610193</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2090%C3%A8me%20ann%C3%A9e%20-%20no%205%20septembre-octobre%202014.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">b3994f6c-a9a1-4ee4-8513-8e1b81df2791</subfield>
+        <subfield code="s">6206652</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2090%C3%A8me%20ann%C3%A9e%20-%20no%206%20novembre-d%C3%A9cembre%202014.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">2829af97-8e85-4eef-baf4-42d9e1a1ba05</subfield>
+        <subfield code="s">14229268</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2091%C3%A8me%20ann%C3%A9e%20-%20no%201%20janvier-%20f%C3%A9vrier%202015.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">4464d379-f028-45d9-ac54-98c510d1ac71</subfield>
+        <subfield code="s">14516045</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2091%C3%A8me%20ann%C3%A9e%20-%20no%202%20mars-avril%202015.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">12bd8bf6-d58c-47e1-a53e-1504d1e8ccc3</subfield>
+        <subfield code="s">6075793</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2091%C3%A8me%20ann%C3%A9e%20-%20no%203%20mai-juin%202015.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">14f791bb-8a32-450b-a979-82f50a8d7131</subfield>
+        <subfield code="s">6348269</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2091%C3%A8me%20ann%C3%A9e%20-%20no%204%20juillet-ao%C3%BBt%202015.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">adc72b04-54c1-48d8-94c0-2eed1aaca26b</subfield>
+        <subfield code="s">25490699</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2091%C3%A8me%20ann%C3%A9e%20-%20no%205%20septembre-octobre%202015.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">6ee074e5-afd9-4e01-a03a-68dd3febc1ec</subfield>
+        <subfield code="s">11145775</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2091%C3%A8me%20ann%C3%A9e%20-%20no%206%20novembre-d%C3%A9cembre%202015.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">c00ba9ec-41c9-4e07-ad90-2b751acdfe9a</subfield>
+        <subfield code="s">6452477</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2092%C3%A8me%20ann%C3%A9e%20-%20no%201%20janvier-%20f%C3%A9vrier%202016.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">429e7b86-f656-4f0b-bd9c-76e01cdc775d</subfield>
+        <subfield code="s">8423698</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2092%C3%A8me%20ann%C3%A9e%20-%20no%202%20mars-avril%202016.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">13cc3488-e739-42a0-9f6e-7c5ded6f747f</subfield>
+        <subfield code="s">9319461</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2092%C3%A8me%20ann%C3%A9e%20-%20no%203%20mai-juin%202016.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">4cf41262-1050-4d28-bdab-3ab8b6f58a8e</subfield>
+        <subfield code="s">8154650</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2092%C3%A8me%20ann%C3%A9e%20-%20no%204%20juillet-ao%C3%BBt%202016.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">809394c6-2594-46fc-81f9-649d7cdebccd</subfield>
+        <subfield code="s">8818514</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2092%C3%A8me%20ann%C3%A9e%20-%20no%205%20septembre-octobre%202016.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">bf93daa2-cd26-4990-ae49-3f98e6ed1e54</subfield>
+        <subfield code="s">5889707</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2092%C3%A8me%20ann%C3%A9e%20-%20no%206%20novembre-d%C3%A9cembre%202016.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">18441569-7a17-46b5-8af0-f418a575e84d</subfield>
+        <subfield code="s">3951265</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2093%C3%A8me%20ann%C3%A9e%20-%20no%201%20janvier-%20f%C3%A9vrier%202017.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">0ebe5891-3391-41f1-8e7e-72f911a3b612</subfield>
+        <subfield code="s">5681312</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2093%C3%A8me%20ann%C3%A9e%20-%20no%202%20mars-avril%202017.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">bc96c94d-c844-4ef5-abd3-9f0aeb17f0e2</subfield>
+        <subfield code="s">5710586</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2093%C3%A8me%20ann%C3%A9e%20-%20no%203%20mai-juin%202017.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">faaa7a1a-6117-48d2-b011-8d40e1a4f69a</subfield>
+        <subfield code="s">6293271</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2093%C3%A8me%20ann%C3%A9e%20-%20no%204%20juillet-ao%C3%BBt%202017.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">af949d34-11f1-4c84-b49c-3e76c13740e0</subfield>
+        <subfield code="s">6393721</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2093%C3%A8me%20ann%C3%A9e%20-%20no%205%20septembre-octobre%202017.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">3e9cba8a-929e-44f7-b03c-47df06fd2106</subfield>
+        <subfield code="s">5971047</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2093%C3%A8me%20ann%C3%A9e%20-%20no%206%20novembre-d%C3%A9cembre%202017.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">e36ec142-a667-4c8c-a69d-f774c1a2b755</subfield>
+        <subfield code="s">4706315</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2094%C3%A8me%20ann%C3%A9e%20-%20no%201%20janvier-%20f%C3%A9vrier%202018.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">12b65417-c222-4d9f-8ac4-0991ca9c6aa7</subfield>
+        <subfield code="s">4554110</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2094%C3%A8me%20ann%C3%A9e%20-%20no%202%20mars-avril%202018.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">788769ea-beff-432a-b659-8c843c01cfb6</subfield>
+        <subfield code="s">4840685</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2094%C3%A8me%20ann%C3%A9e%20-%20no%203%20mai-juin%202018.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">abf78466-3569-4ae1-8e37-b51c9d7799cf</subfield>
+        <subfield code="s">7120779</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2094%C3%A8me%20ann%C3%A9e%20-%20no%204%20juillet-ao%C3%BBt%202018.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">69e0cf6e-07bc-47b8-865c-3f6164d68729</subfield>
+        <subfield code="s">7032483</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2094%C3%A8me%20ann%C3%A9e%20-%20no%205%20septembre-octobre%202018.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">18d6693c-c2f3-46d3-909a-0f9e1718c794</subfield>
+        <subfield code="s">7844715</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2094%C3%A8me%20ann%C3%A9e%20-%20no%206%20novembre-d%C3%A9cembre%202018.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">aef2c354-a69d-4824-bd0d-8da5a8fee334</subfield>
+        <subfield code="s">7196185</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2095%C3%A8me%20ann%C3%A9e%20-%20no%201%20janvier-f%C3%A9vrier%202019.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">4b5cd73e-92e4-4661-b29d-8a77af3f0e77</subfield>
+        <subfield code="s">7535394</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2095%C3%A8me%20ann%C3%A9e%20-%20no%202%20mars-avril%202019.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">980abbd8-f7cd-41fd-b49b-798d30ff2518</subfield>
+        <subfield code="s">6072687</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2095%C3%A8me%20ann%C3%A9e%20-%20no%203%20mai-juin%20%202019.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">e90486ac-3a04-41d7-a0f0-46ec31fbe81e</subfield>
+        <subfield code="s">7463063</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2095%C3%A8me%20ann%C3%A9e%20-%20no%204%20juillet-ao%C3%BBt%202019.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">d17eb292-c6fd-41df-8d3e-5ad885b240cc</subfield>
+        <subfield code="s">5502214</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2095%C3%A8me%20ann%C3%A9e%20-%20no%205%20septembre-octobre%202019.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">92546231-c58d-4711-bfbc-0e37069c167d</subfield>
+        <subfield code="s">3784675</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2095%C3%A8me%20ann%C3%A9e%20-%20no%206%20novembre-d%C3%A9cembre%202019.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">c5c8aa8c-1649-42c6-890d-cf02f07216e9</subfield>
+        <subfield code="s">7844228</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2096%C3%A8me%20ann%C3%A9e%20-%20no%201%20janvier-f%C3%A9vrier%202020.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="9">72e4a358-208b-4682-ae20-71aeb0690309</subfield>
+        <subfield code="s">5438830</subfield>
+        <subfield code="u">https://patrinum.ch/record/277177/files/Passion%20Montagne%20-%2096%C3%A8me%20ann%C3%A9e%20-%20no%202%20mars-avril%202020.pdf</subfield>
+      </datafield>
+      <datafield tag="856" ind1="0" ind2=" ">
+        <subfield code="f">heloise.hahling@bcu.unil.ch</subfield>
+      </datafield>
+      <datafield tag="866" ind1=" " ind2=" ">
+        <subfield code="a">No 1(janvier-février 2014)-No 2(mars-avril 2020)</subfield>
+      </datafield>
+      <datafield tag="909" ind1="C" ind2="O">
+        <subfield code="o">oai:bcu.tind.io:277177</subfield>
+        <subfield code="p">Notices_bibliographiques</subfield>
+        <subfield code="p">GLOBAL_SET</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+        <subfield code="a">[vdbcul]</subfield>
+      </datafield>
+      <datafield tag="981" ind1=" " ind2=" ">
+        <subfield code="a">overwrite</subfield>
+      </datafield>
+      <datafield tag="983" ind1=" " ind2=" ">
+        <subfield code="b">Dépôt légal numérique</subfield>
+      </datafield>
+</record>

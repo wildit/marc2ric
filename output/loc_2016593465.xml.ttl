@@ -1,0 +1,28 @@
+
+<https://data.connectome.ch/Record/19418212> a <https://www.ica.org/standards/RiC/ontology#Record>;
+  <https://www.ica.org/standards/RiC/ontology#identifier> "19418212", "20170215133415.0";
+  <https://www.ica.org/standards/RiC/ontology#hasAuthor> <https://data.connectome.ch/author/Meier%2C%20Bruno%2C>;
+  <https://www.ica.org/standards/RiC/ontology#hasOrHadTitle> <https://data.connectome.ch/title/Company%20Town%20%3A>,
+    <https://data.connectome.ch/subtitle/BBC%2FABB%20und%20die%20Industriestadt%20Baden%20%2F>;
+  <https://www.ica.org/standards/RiC/ontology#hasExtent> <https://data.connectome.ch/extent/183%20pages%20%3A>;
+  <https://www.ica.org/standards/RiC/ontology#hasContentOfType> <https://data.connectome.ch/content/text> .
+
+<https://data.connectome.ch/author/Meier%2C%20Bruno%2C> a <https://www.ica.org/standards/RiC/ontology#Person>;
+  <https://www.ica.org/standards/RiC/ontology#name> "Meier, Bruno,";
+  <https://www.ica.org/standards/RiC/ontology#type> "author" .
+
+<https://data.connectome.ch/title/Company%20Town%20%3A> a <https://www.ica.org/standards/RiC/ontology#Title>;
+  <https://www.ica.org/standards/RiC/ontology#title> "Company Town :";
+  <https://www.ica.org/standards/RiC/ontology#type> "main title" .
+
+<https://data.connectome.ch/subtitle/BBC%2FABB%20und%20die%20Industriestadt%20Baden%20%2F>
+  a <https://www.ica.org/standards/RiC/ontology#Title>;
+  <https://www.ica.org/standards/RiC/ontology#title> "BBC/ABB und die Industriestadt Baden /";
+  <https://www.ica.org/standards/RiC/ontology#type> "subtitle" .
+
+<https://data.connectome.ch/extent/183%20pages%20%3A> a <https://www.ica.org/standards/RiC/ontology#Extent>;
+  <https://www.ica.org/standards/RiC/ontology#quantity> "183 pages :";
+  <https://www.ica.org/standards/RiC/ontology#measure> "26 cm" .
+
+<https://data.connectome.ch/content/text> a <https://www.ica.org/standards/RiC/ontology#ContentType>;
+  <https://www.ica.org/standards/RiC/ontology#name> "text" .

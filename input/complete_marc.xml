@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record>
+  <controlfield tag="001">173427</controlfield>
+  <controlfield tag="005">20211007005827.0</controlfield>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="2">doi</subfield>
+    <subfield code="a">10.22005/bcu.173427</subfield>
+  </datafield>
+  <datafield tag="037" ind1=" " ind2=" ">
+    <subfield code="a">ISADG</subfield>
+  </datafield>
+  <datafield tag="041" ind1=" " ind2=" ">
+    <subfield code="a">fre</subfield>
+  </datafield>
+  <datafield tag="041" ind1=" " ind2=" ">
+    <subfield code="a">ger</subfield>
+  </datafield>
+  <datafield tag="041" ind1=" " ind2=" ">
+    <subfield code="a">eng</subfield>
+  </datafield>
+  <datafield tag="084" ind1=" " ind2=" ">
+    <subfield code="a">IS 9999/7/24#45-01020304050060708-09-1011121314151617181920 (MARC 084__a)</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Auteur - 1 (MARC 100__a)</subfield>
+    <subfield code="e">Rôle Auteur - 1 (MARC 100__e)</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Auteur - 2 (MArc 100__a)</subfield>
+    <subfield code="e">Rôle Auteur - 2 (MARC 100__e)</subfield>
+  </datafield>
+  <datafield tag="110" ind1=" " ind2=" ">
+    <subfield code="a">Auteur (personne morale) -1 (Marc 110__a)</subfield>
+    <subfield code="e">Rôle Auteur (personne morale) -1 (Marc 110__e)</subfield>
+  </datafield>
+  <datafield tag="110" ind1=" " ind2=" ">
+    <subfield code="a">Auteur (personne morale) - 2 (Marc 110__a)</subfield>
+    <subfield code="e">Rôle Auteur (personne morale) - 2 (Marc 110__e)</subfield>
+  </datafield>
+  <datafield tag="111" ind1=" " ind2=" ">
+    <subfield code="a">Événement -1 (MARC 111__a)</subfield>
+    <subfield code="0">40643</subfield>
+  </datafield>
+  <datafield tag="111" ind1=" " ind2=" ">
+    <subfield code="a">Événement -2 (MARC 111__a)</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Notice de test DE REFERENCE (MARC 245__a) - 1</subfield>
+    <subfield code="b">Sous-titre de test 1.1 (MARC 245__b)</subfield>
+    <subfield code="c">Auteur 1.2  - forme non normalisée (MARC 245__c)</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Notice de test champs MARC (MARC 245__a) - 2</subfield>
+    <subfield code="b">Sous-titre de test 2 (MARC 245__b)</subfield>
+  </datafield>
+  <datafield tag="246" ind1=" " ind2=" ">
+    <subfield code="a">Autre intitulé de test -1 (MARC 246__a)</subfield>
+  </datafield>
+  <datafield tag="246" ind1=" " ind2=" ">
+    <subfield code="a">Autre intitulé de test - 2 (MARC 246__a)</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="b">Éditeur 1 (MARC 260__b)</subfield>
+    <subfield code="a">Lieu d'édition 1a (MARC 260__a) sans lookup</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="b">Éditeur 2 (MARC 260__b)</subfield>
+    <subfield code="a">Lieu d'édition 2a (MARC 260__a) sans lookup</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="b">Klausfelder SA</subfield>
+    <subfield code="0">234692</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">datation (260__c)</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="e">[obsolète] Lieu de production 1 (MARC 260__e)</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2=" ">
+    <subfield code="a">Lieu de production 1 (MARC 264__a)</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2=" ">
+    <subfield code="a">Lieu de production 2 (MARC 264__a)</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2=" ">
+    <subfield code="a">Lausanne (Suisse, VD)</subfield>
+    <subfield code="0">241491</subfield>
+  </datafield>
+  <datafield tag="264" ind1=" " ind2=" ">
+    <subfield code="a">Losona</subfield>
+  </datafield>
+  <datafield tag="269" ind1=" " ind2=" ">
+    <subfield code="a">2005</subfield>
+    <subfield code="b">2015</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">Collation - 1 (MARC 300__a)</subfield>
+    <subfield code="c">Dimensions -1.1 (MARC 300__c)</subfield>
+    <subfield code="k">Support - 1.1 (MARC 300__k)</subfield>
+    <subfield code="p">Autres informations sur le format - 1.1 (MARC 300__p)</subfield>
+    <subfield code="p">Autres informations sur le format - 1.2 (MARC 300__p)</subfield>
+    <subfield code="c">autres dimensions - 1.2 (MARC 300__c)</subfield>
+    <subfield code="k">autres supports 1.2 (MARC 300__k)</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="p">Autres informations sur le format - 2 (MARC 300__p)</subfield>
+    <subfield code="a">Collation - 2 (MARC 300__a)</subfield>
+    <subfield code="c">Dimensions -2 (MARC 300__c)</subfield>
+    <subfield code="k">Support - 2 (MARC 300__k)</subfield>
+    <subfield code="p">Autres informations sur le format - 2 (MARC 300__p)</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="c">Dimensions -3 (MARC 300__c)</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="k">Papier calque</subfield>
+    <subfield code="0">174969</subfield>
+  </datafield>
+  <datafield tag="306" ind1=" " ind2=" ">
+    <subfield code="a">44:34 (MARC 306__a)</subfield>
+  </datafield>
+  <datafield tag="306" ind1=" " ind2=" ">
+    <subfield code="a">32:21 (MARC 306__a)</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">Type de document - 1 (MARC 336__a)</subfield>
+  </datafield>
+  <datafield tag="336" ind1=" " ind2=" ">
+    <subfield code="a">Manuscrits</subfield>
+    <subfield code="0">174971</subfield>
+  </datafield>
+  <datafield tag="340" ind1=" " ind2=" ">
+    <subfield code="a">Caractéristiques matérielles (340__a)</subfield>
+  </datafield>
+  <datafield tag="340" ind1=" " ind2=" ">
+    <subfield code="c">Matériel / Technique 1 (340__c)</subfield>
+  </datafield>
+  <datafield tag="340" ind1=" " ind2=" ">
+    <subfield code="c">Matériel / Technique 2 (340__c)</subfield>
+  </datafield>
+  <datafield tag="340" ind1=" " ind2=" ">
+    <subfield code="g">Color Statement (??) (340__g)</subfield>
+  </datafield>
+  <datafield tag="347" ind1=" " ind2=" ">
+    <subfield code="a">Format de fichier informatique - 2 (MARC 347__a)</subfield>
+    <subfield code="b">Encodage du fichier - 2 (MARC 347__b)</subfield>
+  </datafield>
+  <datafield tag="347" ind1=" " ind2=" ">
+    <subfield code="b">Encodage du fichier - 3 (MARC 347__b)</subfield>
+  </datafield>
+  <datafield tag="351" ind1=" " ind2=" ">
+    <subfield code="c">Sous-fonds</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Notes publiques (500__a)</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Notes publiques - 2 (500__a)</subfield>
+  </datafield>
+  <datafield tag="505" ind1=" " ind2=" ">
+    <subfield code="a">Table des matières (MARC 505__a)</subfield>
+  </datafield>
+  <datafield tag="506" ind1=" " ind2=" ">
+    <subfield code="a">Conditions d'accès (MARC 506__a)</subfield>
+  </datafield>
+  <datafield tag="508" ind1=" " ind2=" ">
+    <subfield code="a">Crédits photographiques -1 (MARC 508__a)</subfield>
+  </datafield>
+  <datafield tag="508" ind1=" " ind2=" ">
+    <subfield code="a">Crédits photographiques -2 (MARC 508__a)</subfield>
+  </datafield>
+  <datafield tag="510" ind1=" " ind2=" ">
+    <subfield code="a">Bibliographie : Bible Porta (article) (Champs Patrinum 510__a)</subfield>
+    <subfield code="u">https://renouvaud.hosted.exlibrisgroup.com/permalink/f/gt86ri/41BCU_ALMA7157243110002851</subfield>
+  </datafield>
+  <datafield tag="510" ind1=" " ind2=" ">
+    <subfield code="a">un autre livre (510__a)</subfield>
+  </datafield>
+  <datafield tag="518" ind1=" " ind2=" ">
+    <subfield code="a">Notes (lieu, date) - (MARC (518__a)</subfield>
+    <subfield code="u">https://patrinum.ch/record/173155?ln=fr</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">(MARC 520__a) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla pulvinar aliquam. Praesent quis nisl eget lectus consectetur dictum condimentum viverra risus. Phasellus aliquet dolor sit amet nunc tristique, aliquet ullamcorper nibh vestibulum. Suspendisse dignissim leo sollicitudin, laoreet velit faucibus, viverra odio. Donec nec purus ac nisl auctor euismod. Sed facilisis gravida eleifend. Donec sit amet ligula malesuada, vulputate ipsum a, ullamcorper nunc. Donec vel justo faucibus, fermentum dui quis, ullamcorper nunc. Fusce sem magna, auctor eget sagittis quis, vestibulum sit amet velit. Aliquam bibendum non libero vitae malesuada. Quisque sollicitudin nisi sit amet quam blandit tincidunt. Vestibulum elit ipsum, posuere non porttitor vel, tristique vel orci. Quisque dictum nulla nec felis fringilla, ut mollis felis congue. Nulla congue laoreet velit, ac egestas neque aliquam sit amet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nec erat porta, accumsan nunc vel, sodales lectus. Cras accumsan tellus vel est fermentum blandit. Mauris vitae placerat libero, sed tincidunt sapien. Curabitur efficitur gravida tincidunt. Nullam dictum laoreet nibh, non congue mi.</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">(Marc 520__a) seconde description.</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Existence et lieu de conservation de copies - 1 (MARC 530__a)</subfield>
+  </datafield>
+  <datafield tag="530" ind1=" " ind2=" ">
+    <subfield code="a">Existence et lieu de conservation des copies - 2 (MARC 530__a)</subfield>
+  </datafield>
+  <datafield tag="534" ind1=" " ind2=" ">
+    <subfield code="c">[obsolète] ?? (MARC 534__c)</subfield>
+  </datafield>
+  <datafield tag="535" ind1=" " ind2=" ">
+    <subfield code="a">Existence et lieu de conservation des originaux - 1 (MARC 535__a)</subfield>
+  </datafield>
+  <datafield tag="535" ind1=" " ind2=" ">
+    <subfield code="a">Existence et lieu de conservation des originaux - 2 (MARC 535__a)</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="a">Conditions de reproduction (MARC 540__a)</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="c">Droits (MARC 540__c) [TIND] Authorization. Previous : [Voir] Modalités d'entrée (propriétaire des droits) - 1 (anciennement MARC 541__f)</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">Déclaration de copyright (MARC 542__f)</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">CC-BY 4.0</subfield>
+    <subfield code="u">https://creativecommons.org/licenses/by/4.0/deed.fr</subfield>
+  </datafield>
+  <datafield tag="544" ind1=" " ind2=" ">
+    <subfield code="a">Sources complémentaires - 1 (MARC 544__a)</subfield>
+    <subfield code="u">https://www.bnf.fr/fr/les-archives-fonds-dinstitutions-et-de-personnalites#bnf-fonds-documentaires</subfield>
+  </datafield>
+  <datafield tag="544" ind1=" " ind2=" ">
+    <subfield code="a">Sources complémentaires - 2 (MARC 544__a)</subfield>
+  </datafield>
+  <datafield tag="545" ind1=" " ind2=" ">
+    <subfield code="a">Histoire administrative/biographique (545__a)</subfield>
+  </datafield>
+  <datafield tag="555" ind1=" " ind2=" ">
+    <subfield code="a">Inventaire sommaire du fonds de la famille OLIVIER (IS 1905) - tapuscrit et annotation (1970)  (MARC 555__a)</subfield>
+    <subfield code="u">https://patrinum.ch/record/240195</subfield>
+  </datafield>
+  <datafield tag="555" ind1=" " ind2=" ">
+    <subfield code="a">Instruments de recherche (texte libre) - 2 (MARC 555__a)</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">Histoire de la conservation - 1 (MARC 561__a)</subfield>
+  </datafield>
+  <datafield tag="561" ind1=" " ind2=" ">
+    <subfield code="a">Histoire de la conservation - 2 (MARC 561__a)</subfield>
+  </datafield>
+  <datafield tag="581" ind1=" " ind2=" ">
+    <subfield code="a">Bibliographie -1 (MARC 581__a)</subfield>
+  </datafield>
+  <datafield tag="581" ind1=" " ind2=" ">
+    <subfield code="a">Bibliographie -2 (MARC 581__a)</subfield>
+  </datafield>
+  <datafield tag="584" ind1=" " ind2=" ">
+    <subfield code="a">Accroissements - 1 (MARC 584__a)</subfield>
+  </datafield>
+  <datafield tag="584" ind1=" " ind2=" ">
+    <subfield code="a">Accroissements - 2 (MARC 584__a)</subfield>
+  </datafield>
+  <datafield tag="590" ind1=" " ind2=" ">
+    <subfield code="a">Inscription -1 (590__a)</subfield>
+  </datafield>
+  <datafield tag="590" ind1=" " ind2=" ">
+    <subfield code="a">Inscription -2 (590__a)</subfield>
+  </datafield>
+  <datafield tag="600" ind1=" " ind2=" ">
+    <subfield code="a">Personnes_1 (600__a)</subfield>
+    <subfield code="0">40643</subfield>
+  </datafield>
+  <datafield tag="600" ind1="1" ind2=" ">
+    <subfield code="a">Personnes - 2 (MARC 6001_a)</subfield>
+    <subfield code="e">destinataire (6001_e)</subfield>
+  </datafield>
+  <datafield tag="600" ind1="0" ind2=" ">
+    <subfield code="a">Personne 3 (6000_a)</subfield>
+    <subfield code="e">destinataire (6000_e)</subfield>
+  </datafield>
+  <datafield tag="610" ind1=" " ind2=" ">
+    <subfield code="a">Collectivités - 1 (MARC 610__a)</subfield>
+    <subfield code="0">40643</subfield>
+  </datafield>
+  <datafield tag="610" ind1=" " ind2=" ">
+    <subfield code="a">Collectivités - 2 (MARC 610__a)</subfield>
+  </datafield>
+  <datafield tag="611" ind1=" " ind2=" ">
+    <subfield code="a">Evénements - 1 (MARC 611__a)</subfield>
+    <subfield code="0">40643</subfield>
+  </datafield>
+  <datafield tag="611" ind1=" " ind2=" ">
+    <subfield code="a">Evénements - 2 (MARC 611__a)</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2=" ">
+    <subfield code="a">Matières - 1 (MARC 650__a)</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2=" ">
+    <subfield code="a">Matières - 2 (MARC 650__a)</subfield>
+    <subfield code="0">40643</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2=" ">
+    <subfield code="a">Lieux - 1 (MARC 651__a)</subfield>
+    <subfield code="0">40643</subfield>
+  </datafield>
+  <datafield tag="651" ind1=" " ind2=" ">
+    <subfield code="a">Lieux - 2 (MARC 651__a)</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2=" ">
+    <subfield code="a">Genre musical IRCAM - 1 (MARC 655__a)</subfield>
+  </datafield>
+  <datafield tag="655" ind1=" " ind2=" ">
+    <subfield code="a">Genre musical IRCAM - 2 (MARC 655__a)</subfield>
+  </datafield>
+  <datafield tag="690" ind1=" " ind2=" ">
+    <subfield code="a">Éditeurs - 1 (MARC 690__a)</subfield>
+    <subfield code="0">40643</subfield>
+  </datafield>
+  <datafield tag="690" ind1=" " ind2=" ">
+    <subfield code="a">Éditeurs - 2 (MARC 690__a)</subfield>
+  </datafield>
+  <datafield tag="691" ind1=" " ind2=" ">
+    <subfield code="a">Bâtiments - 1 (MARC 691__a)</subfield>
+    <subfield code="0">40643</subfield>
+  </datafield>
+  <datafield tag="691" ind1=" " ind2=" ">
+    <subfield code="a">Bâtiments - 2 (MARC 691__a)</subfield>
+  </datafield>
+  <datafield tag="692" ind1=" " ind2=" ">
+    <subfield code="a">Oronymes - 1 (MARC 692__a)</subfield>
+    <subfield code="0">40643</subfield>
+  </datafield>
+  <datafield tag="692" ind1=" " ind2=" ">
+    <subfield code="a">Oronymes - 2 (MARC 692__a)</subfield>
+  </datafield>
+  <datafield tag="694" ind1=" " ind2=" ">
+    <subfield code="a">Instruments (Archives musicales) - 1 (MARC 694__a)</subfield>
+    <subfield code="0">40643</subfield>
+  </datafield>
+  <datafield tag="694" ind1=" " ind2=" ">
+    <subfield code="a">Instruments (Archives musicales) - 2 (MARC 694__a)</subfield>
+  </datafield>
+  <datafield tag="695" ind1=" " ind2=" ">
+    <subfield code="a">Genre musical RERO -1 (MARC 695__a)</subfield>
+    <subfield code="0">40643</subfield>
+  </datafield>
+  <datafield tag="695" ind1=" " ind2=" ">
+    <subfield code="a">Genre musical RERO -2 (MARC 695__a)</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Nom du/des producteurs personne physique - 1 (MARC 700__a)</subfield>
+    <subfield code="e">Rôle personne physique -1 (MARC 700__e)</subfield>
+  </datafield>
+  <datafield tag="700" ind1="0" ind2=" ">
+    <subfield code="a">Rochat (7000_a)</subfield>
+    <subfield code="c">famille (7000_c)</subfield>
+    <subfield code="d">1950-1990 (7000_d)</subfield>
+  </datafield>
+  <datafield tag="700" ind1="3" ind2=" ">
+    <subfield code="a">Famille Rochat (7003_a)</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Nom du/des producteurs personne physique - 2 (MARC 7001__a)</subfield>
+    <subfield code="e">Rôle personne physique -2 (MARC 7001__e)</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Rochat, Auguste</subfield>
+    <subfield code="0">40474</subfield>
+    <subfield code="e">auteur (7001_e)</subfield>
+    <subfield code="c">théologien </subfield>
+    <subfield code="d">1789-1847</subfield>
+  </datafield>
+  <datafield tag="710" ind1=" " ind2=" ">
+    <subfield code="a">Nom du/des producteurs personne morale - 2 (MARC 710__a)</subfield>
+    <subfield code="e">Rôle personne morale - 2 (MARC 710__e)</subfield>
+    <subfield code="0">238720</subfield>
+  </datafield>
+  <datafield tag="710" ind1="1" ind2=" ">
+    <subfield code="a">Nom du/des producteurs personne morale - 1 (MARC 7101_a)</subfield>
+    <subfield code="e">rôle : collectivité territoriale -1 (MARC 7101_e)</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Nom du/des producteurs personne morale - 3 (MARC 7102_a)</subfield>
+    <subfield code="e">rôle : collectivité non territoriale - 3 (MARC 7102_a)</subfield>
+  </datafield>
+  <datafield tag="711" ind1=" " ind2=" ">
+    <subfield code="a">Evénements - 1 (MARC 711__a)</subfield>
+    <subfield code="0">40643</subfield>
+  </datafield>
+  <datafield tag="711" ind1=" " ind2=" ">
+    <subfield code="a">Evénements - 2 (MARC 711__a)</subfield>
+  </datafield>
+  <datafield tag="751" ind1=" " ind2=" ">
+    <subfield code="a">Lieu de production correspondance (champs 751__a)</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="g">Publication dont est extrait le document (année) - 1 (MARC 773__g)</subfield>
+    <subfield code="k">Publication dont est extrait le document (numéro) - 1 (MARC 773__k)</subfield>
+    <subfield code="q">Publication dont est extrait le document (pagination) - 1 (MARC 773__q)</subfield>
+    <subfield code="t">Publication dont est extrait le document (titre) - 1 (MARC 773__t)</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="g">Publication dont est extrait le document (année) - 2 (MARC 773__g)</subfield>
+    <subfield code="k">Publication dont est extrait le document (numéro) - 2 (MARC 773__k)</subfield>
+    <subfield code="q">Publication dont est extrait le document (pagination) - 2 (MARC 773__q)</subfield>
+    <subfield code="t">Publication dont est extrait le document (titre) - 2 (MARC 773__t)</subfield>
+  </datafield>
+  <datafield tag="787" ind1=" " ind2=" ">
+    <subfield code="t">Voir aussi (intitulé) - 1(MARC 787__t)</subfield>
+    <subfield code="w">173613</subfield>
+  </datafield>
+  <datafield tag="787" ind1=" " ind2=" ">
+    <subfield code="t">Voir aussi (intitulé) - 3 (MARC 787__t)</subfield>
+    <subfield code="w">173541</subfield>
+  </datafield>
+  <datafield tag="787" ind1=" " ind2=" ">
+    <subfield code="t">Fonds René Char (MARC 787__t) : notice publique (no 173629)</subfield>
+    <subfield code="w">173629</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="a">Lieu de conservation institution (MARC 852__a)</subfield>
+    <subfield code="b">Lieu de conservation service (MARC 852__b)</subfield>
+    <subfield code="n">Lieu de conservation pays (MARC 852__n)</subfield>
+  </datafield>
+  <datafield tag="852" ind1=" " ind2=" ">
+    <subfield code="p">Identifiant unique (MARC 852__p) PTN-1234567891011</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="1">
+    <subfield code="u">mailto:consultation@bcu.unil.ch?subject=Patrinum%20:%20demande%20de%20consultation%20&amp;body=Bonjour,%0A%0APuis-je%20vous%20demander%20de%20préparer%20la%20consultation%20des%20documents%20suivants%20:%0A%0A%20URL%20Patrinum%20(à%20préciser)%0A%0AJ'ai%20pris%20connaissance%20des%20conditions%20de%20consultation%20(https://patrinum.ch/pages/?page=Manuscrits).%0A%0ANuméro%20de%20lecteur%20:%0ANom,%20prénom%20:%0AObjet%20de%20la%20recherche%20:%0ADate%20de%20la%20consultation%20souhaitée%20:%0A%0AEn%20vous%20remerciant%20d'avance!%0A%0A</subfield>
+    <subfield code="y">[TEST] mail de demande de consultation</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="1">
+    <subfield code="u">&lt;?php     $protocol = strpos(strtolower($_SERVER['SERVER_PROTOCOL']),'https')                       === FALSE ? 'http' : 'https';      $host     = $_SERVER['HTTP_HOST'];      $script   = $_SERVER['SCRIPT_NAME'];      $params   = $_SERVER['QUERY_STRING'];             $currentUrl = $protocol . '://' . $host . $script . '?' . $params;             echo $currentUrl;?></subfield>
+    <subfield code="y">[TEST] test php</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="2">
+    <subfield code="3">Références externes (type de ressource liée (texte libre)) - 1 (MARC 856423)</subfield>
+    <subfield code="8">Références externes (type de ressource liée (code)) - 1 (MARC 856428)</subfield>
+    <subfield code="u">https://www.helveticarchives.ch/detail.aspx?ID=204561</subfield>
+    <subfield code="y">Références externes (texte à afficher) - 1 (MARC 85642y)</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="2">
+    <subfield code="3">Références externes (type de ressource liée (texte libre)) - 2 (MARC 856423)</subfield>
+    <subfield code="8">Références externes (type de ressource liée (code)) - 2 (MARC 856428)</subfield>
+    <subfield code="u">https://www.helveticarchives.ch/detail.aspx?ID=204562</subfield>
+    <subfield code="y">Références externes (texte à afficher) - 2 (MARC 85642y)</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="2">
+    <subfield code="3">Références externes (type de ressource liée (texte libre)) - 3 (MARC 856423)</subfield>
+    <subfield code="8">Références externes (type de ressource liée (code)) - 3 (MARC 856428)</subfield>
+    <subfield code="u">https://www.helveticarchives.ch/detail.aspx?ID=204563</subfield>
+    <subfield code="y">Références externes (texte à afficher) - 3 (MARC 85642y)</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="2">
+    <subfield code="3">Lien pour demander la consultation</subfield>
+    <subfield code="8">Référence à préciser</subfield>
+    <subfield code="u">https://www.bcu-lausanne.ch/patrimoine/collections-precieuses/manuscrits/#.XSRUiiDgqUl</subfield>
+    <subfield code="y">LIEN POUR DEMANDER LA CONSULTATION DE L'UNITE DECRITE</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="y">Ajout du 12.11.2019 (bdc)</subfield>
+    <subfield code="9">8127d331-2ccf-4bd8-b623-ae7e10ac5793</subfield>
+    <subfield code="s">34983</subfield>
+    <subfield code="u">https://patrinum.ch/record/173427/files/Notice%20de%20test%20PDF.pdf</subfield>
+  </datafield>
+  <datafield tag="909" ind1="C" ind2="O">
+    <subfield code="o">oai:bcu.tind.io:173427</subfield>
+    <subfield code="q">IS_5275</subfield>
+    <subfield code="q">GLOBAL_SET</subfield>
+    <subfield code="q">test_set2</subfield>
+  </datafield>
+  <datafield tag="910" ind1=" " ind2=" ">
+    <subfield code="a">TEST.173427</subfield>
+  </datafield>
+  <datafield tag="910" ind1=" " ind2=" ">
+    <subfield code="b">Cote ancienne (MARC 910__b) - 1</subfield>
+  </datafield>
+  <datafield tag="910" ind1=" " ind2=" ">
+    <subfield code="b">Cote ancienne (MARC 910__b) - 2</subfield>
+  </datafield>
+  <datafield tag="911" ind1=" " ind2=" ">
+    <subfield code="a">Règles ou conventions - 1 (MARC 911__a)</subfield>
+  </datafield>
+  <datafield tag="911" ind1=" " ind2=" ">
+    <subfield code="a">Règles ou conventions - 2 (MARC 911__a)</subfield>
+  </datafield>
+  <datafield tag="940" ind1=" " ind2=" ">
+    <subfield code="a">Demande de consultation</subfield>
+    <subfield code="u">https://db-prod-bcul.unil.ch/formulaires/Manuscrits/Formulaire-patrinum-A1.html?recid=173427</subfield>
+  </datafield>
+  <datafield tag="971" ind1=" " ind2=" ">
+    <subfield code="a">Sigle Bibliothèque (RISM)</subfield>
+  </datafield>
+  <datafield tag="972" ind1=" " ind2=" ">
+    <subfield code="a">Code de l'institution détentrice de l'élément (champs obligatoire)</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">Valeur requête (MARC 980__a)</subfield>
+  </datafield>
+  <datafield tag="980" ind1=" " ind2=" ">
+    <subfield code="a">MS-TEST</subfield>
+  </datafield>
+</record>
+

@@ -1,0 +1,148 @@
+
+<https://data.connectome.ch/Record/173427> a <https://www.ica.org/standards/RiC/ontology#Record>;
+  <https://www.ica.org/standards/RiC/ontology#identifier> "173427", "20211007005827.0",
+    "IS 9999/7/24#45-01020304050060708-09-1011121314151617181920 (MARC 084__a)";
+  <https://www.ica.org/standards/RiC/ontology#ruleFollowed> "ISADG";
+  <https://www.ica.org/standards/RiC/ontology#hasOrHadLanguage> <https://data.connectome.ch/language/fre>,
+    <https://data.connectome.ch/language/ger>, <https://data.connectome.ch/language/eng>;
+  <https://www.ica.org/standards/RiC/ontology#hasAuthor> <https://data.connectome.ch/author/Auteur%20-%201%20%28MARC%20100__a%29>,
+    <https://data.connectome.ch/author/Auteur%20-%202%20%28MArc%20100__a%29>, <https://data.connectome.ch/author_corporate/Auteur%20%28personne%20morale%29%20-1%20%28Marc%20110__a%29>,
+    <https://data.connectome.ch/author_corporate/Auteur%20%28personne%20morale%29%20-%202%20%28Marc%20110__a%29>;
+  <https://www.ica.org/standards/RiC/ontology#isAssociatedWithEvent> <https://data.connectome.ch/event/Événement%20-1%20%28MARC%20111__a%29>,
+    <https://data.connectome.ch/event/Événement%20-2%20%28MARC%20111__a%29>;
+  <https://www.ica.org/standards/RiC/ontology#hasOrHadTitle> <https://data.connectome.ch/title/Notice%20de%20test%20DE%20REFERENCE%20%28MARC%20245__a%29%20-%201>,
+    <https://data.connectome.ch/title/Notice%20de%20test%20champs%20MARC%20%28MARC%20245__a%29%20-%202>,
+    <https://data.connectome.ch/subtitle/Sous-titre%20de%20test%201.1%20%28MARC%20245__b%29>,
+    <https://data.connectome.ch/subtitle/Sous-titre%20de%20test%202%20%28MARC%20245__b%29>,
+    <https://data.connectome.ch/othertitle/Autre%20intitulé%20de%20test%20-1%20%28MARC%20246__a%29>,
+    <https://data.connectome.ch/othertitle/Autre%20intitulé%20de%20test%20-%202%20%28MARC%20246__a%29>;
+  <https://www.ica.org/standards/RiC/ontology#hasPublisher> <https://data.connectome.ch/publisher/Éditeur%201%20%28MARC%20260__b%29>,
+    <https://data.connectome.ch/publisher/Éditeur%202%20%28MARC%20260__b%29>, <https://data.connectome.ch/publisher/Klausfelder%20SA>;
+  <https://www.ica.org/standards/RiC/ontology#hasExtent> <https://data.connectome.ch/extent/Collation%20-%201%20%28MARC%20300__a%29>,
+    <https://data.connectome.ch/extent/Collation%20-%202%20%28MARC%20300__a%29>, <https://data.connectome.ch/duration/44%3A34%20%28MARC%20306__a%29>,
+    <https://data.connectome.ch/duration/32%3A21%20%28MARC%20306__a%29>;
+  <https://www.ica.org/standards/RiC/ontology#hasContentOfType> <https://data.connectome.ch/content/Type%20de%20document%20-%201%20%28MARC%20336__a%29>,
+    <https://data.connectome.ch/content/Manuscrits>;
+  <https://www.ica.org/standards/RiC/ontology#physicalCharacteristics> "Caractéristiques matérielles (340__a)";
+  <http://purl.org/dc/terms/format> <https://data.connectome.ch/format/Format%20de%20fichier%20informatique%20-%202%20%28MARC%20347__a%29>;
+  <https://www.ica.org/standards/RiC/ontology#type> "Sous-fonds";
+  <https://www.ica.org/standards/RiC/ontology#descriptiveNote> "Sous-fonds", "(MARC 520__a) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla pulvinar aliquam. Praesent quis nisl eget lectus consectetur dictum condimentum viverra risus. Phasellus aliquet dolor sit amet nunc tristique, aliquet ullamcorper nibh vestibulum. Suspendisse dignissim leo sollicitudin, laoreet velit faucibus, viverra odio. Donec nec purus ac nisl auctor euismod. Sed facilisis gravida eleifend. Donec sit amet ligula malesuada, vulputate ipsum a, ullamcorper nunc. Donec vel justo faucibus, fermentum dui quis, ullamcorper nunc. Fusce sem magna, auctor eget sagittis quis, vestibulum sit amet velit. Aliquam bibendum non libero vitae malesuada. Quisque sollicitudin nisi sit amet quam blandit tincidunt. Vestibulum elit ipsum, posuere non porttitor vel, tristique vel orci. Quisque dictum nulla nec felis fringilla, ut mollis felis congue. Nulla congue laoreet velit, ac egestas neque aliquam sit amet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nec erat porta, accumsan nunc vel, sodales lectus. Cras accumsan tellus vel est fermentum blandit. Mauris vitae placerat libero, sed tincidunt sapien. Curabitur efficitur gravida tincidunt. Nullam dictum laoreet nibh, non congue mi.",
+    "(Marc 520__a) seconde description.";
+  <http://purl.org/dc/terms/tableOfContents> "Table des matières (MARC 505__a)";
+  <https://www.ica.org/standards/RiC/ontology#conditionsOfAccess> "Conditions d'accès (MARC 506__a)" .
+
+<https://data.connectome.ch/language/fre> a <https://www.ica.org/standards/RiC/ontology#Language>;
+  <https://www.ica.org/standards/RiC/ontology#name> "fre" .
+
+<https://data.connectome.ch/language/ger> a <https://www.ica.org/standards/RiC/ontology#Language>;
+  <https://www.ica.org/standards/RiC/ontology#name> "ger" .
+
+<https://data.connectome.ch/language/eng> a <https://www.ica.org/standards/RiC/ontology#Language>;
+  <https://www.ica.org/standards/RiC/ontology#name> "eng" .
+
+<https://data.connectome.ch/author/Auteur%20-%201%20%28MARC%20100__a%29> a <https://www.ica.org/standards/RiC/ontology#Person>;
+  <https://www.ica.org/standards/RiC/ontology#name> "Auteur - 1 (MARC 100__a)";
+  <https://www.ica.org/standards/RiC/ontology#type> "Rôle Auteur - 1 (MARC 100__e)" .
+
+<https://data.connectome.ch/author/Auteur%20-%202%20%28MArc%20100__a%29> a <https://www.ica.org/standards/RiC/ontology#Person>;
+  <https://www.ica.org/standards/RiC/ontology#name> "Auteur - 2 (MArc 100__a)";
+  <https://www.ica.org/standards/RiC/ontology#type> "Rôle Auteur - 2 (MARC 100__e)" .
+
+<https://data.connectome.ch/author_corporate/Auteur%20%28personne%20morale%29%20-1%20%28Marc%20110__a%29>
+  a <https://www.ica.org/standards/RiC/ontology#Group>;
+  <https://www.ica.org/standards/RiC/ontology#name> "Auteur (personne morale) -1 (Marc 110__a)";
+  <https://www.ica.org/standards/RiC/ontology#type> "Rôle Auteur (personne morale) -1 (Marc 110__e)" .
+
+<https://data.connectome.ch/author_corporate/Auteur%20%28personne%20morale%29%20-%202%20%28Marc%20110__a%29>
+  a <https://www.ica.org/standards/RiC/ontology#Group>;
+  <https://www.ica.org/standards/RiC/ontology#name> "Auteur (personne morale) - 2 (Marc 110__a)";
+  <https://www.ica.org/standards/RiC/ontology#type> "Rôle Auteur (personne morale) - 2 (Marc 110__e)" .
+
+<https://data.connectome.ch/event/Événement%20-1%20%28MARC%20111__a%29> a <https://www.ica.org/standards/RiC/ontology#Activity>;
+  <https://www.ica.org/standards/RiC/ontology#name> "Événement -1 (MARC 111__a)";
+  <https://www.ica.org/standards/RiC/ontology#identifier> "40643" .
+
+<https://data.connectome.ch/event/Événement%20-2%20%28MARC%20111__a%29> a <https://www.ica.org/standards/RiC/ontology#Activity>;
+  <https://www.ica.org/standards/RiC/ontology#name> "Événement -2 (MARC 111__a)" .
+
+<https://data.connectome.ch/title/Notice%20de%20test%20DE%20REFERENCE%20%28MARC%20245__a%29%20-%201>
+  a <https://www.ica.org/standards/RiC/ontology#Title>;
+  <https://www.ica.org/standards/RiC/ontology#title> "Notice de test DE REFERENCE (MARC 245__a) - 1";
+  <https://www.ica.org/standards/RiC/ontology#type> "main title" .
+
+<https://data.connectome.ch/title/Notice%20de%20test%20champs%20MARC%20%28MARC%20245__a%29%20-%202>
+  a <https://www.ica.org/standards/RiC/ontology#Title>;
+  <https://www.ica.org/standards/RiC/ontology#title> "Notice de test champs MARC (MARC 245__a) - 2";
+  <https://www.ica.org/standards/RiC/ontology#type> "main title" .
+
+<https://data.connectome.ch/subtitle/Sous-titre%20de%20test%201.1%20%28MARC%20245__b%29>
+  a <https://www.ica.org/standards/RiC/ontology#Title>;
+  <https://www.ica.org/standards/RiC/ontology#title> "Sous-titre de test 1.1 (MARC 245__b)";
+  <https://www.ica.org/standards/RiC/ontology#type> "subtitle" .
+
+<https://data.connectome.ch/subtitle/Sous-titre%20de%20test%202%20%28MARC%20245__b%29>
+  a <https://www.ica.org/standards/RiC/ontology#Title>;
+  <https://www.ica.org/standards/RiC/ontology#title> "Sous-titre de test 2 (MARC 245__b)";
+  <https://www.ica.org/standards/RiC/ontology#type> "subtitle" .
+
+<https://data.connectome.ch/othertitle/Autre%20intitulé%20de%20test%20-1%20%28MARC%20246__a%29>
+  a <https://www.ica.org/standards/RiC/ontology#Title>;
+  <https://www.ica.org/standards/RiC/ontology#title> "Autre intitulé de test -1 (MARC 246__a)";
+  <https://www.ica.org/standards/RiC/ontology#type> "other title" .
+
+<https://data.connectome.ch/othertitle/Autre%20intitulé%20de%20test%20-%202%20%28MARC%20246__a%29>
+  a <https://www.ica.org/standards/RiC/ontology#Title>;
+  <https://www.ica.org/standards/RiC/ontology#title> "Autre intitulé de test - 2 (MARC 246__a)";
+  <https://www.ica.org/standards/RiC/ontology#type> "other title" .
+
+<https://data.connectome.ch/publisher/Éditeur%201%20%28MARC%20260__b%29> a <https://www.ica.org/standards/RiC/ontology#Group>;
+  <https://www.ica.org/standards/RiC/ontology#name> "Éditeur 1 (MARC 260__b)";
+  <https://www.ica.org/standards/RiC/ontology#location> "Lieu d'édition 1a (MARC 260__a) sans lookup" .
+
+<https://data.connectome.ch/publisher/Éditeur%202%20%28MARC%20260__b%29> a <https://www.ica.org/standards/RiC/ontology#Group>;
+  <https://www.ica.org/standards/RiC/ontology#name> "Éditeur 2 (MARC 260__b)";
+  <https://www.ica.org/standards/RiC/ontology#location> "Lieu d'édition 2a (MARC 260__a) sans lookup" .
+
+<https://data.connectome.ch/publisher/Klausfelder%20SA> a <https://www.ica.org/standards/RiC/ontology#Group>;
+  <https://www.ica.org/standards/RiC/ontology#name> "Klausfelder SA";
+  <https://www.ica.org/standards/RiC/ontology#identifier> "234692" .
+
+<https://data.connectome.ch/extent/Collation%20-%201%20%28MARC%20300__a%29> a <https://www.ica.org/standards/RiC/ontology#Extent>;
+  <https://www.ica.org/standards/RiC/ontology#quantity> "Collation - 1 (MARC 300__a)";
+  <https://www.ica.org/standards/RiC/ontology#measure> "Dimensions -1.1 (MARC 300__c)",
+    "autres dimensions - 1.2 (MARC 300__c)";
+  <https://www.ica.org/standards/RiC/ontology#physicalCharacteristics> "Support - 1.1 (MARC 300__k)",
+    "autres supports 1.2 (MARC 300__k)";
+  <https://www.ica.org/standards/RiC/ontology#textual> "Autres informations sur le format - 1.1 (MARC 300__p)",
+    "Autres informations sur le format - 1.2 (MARC 300__p)" .
+
+<https://data.connectome.ch/extent/Collation%20-%202%20%28MARC%20300__a%29> a <https://www.ica.org/standards/RiC/ontology#Extent>;
+  <https://www.ica.org/standards/RiC/ontology#quantity> "Collation - 2 (MARC 300__a)";
+  <https://www.ica.org/standards/RiC/ontology#measure> "Dimensions -2 (MARC 300__c)";
+  <https://www.ica.org/standards/RiC/ontology#physicalCharacteristics> "Support - 2 (MARC 300__k)";
+  <https://www.ica.org/standards/RiC/ontology#textual> "Autres informations sur le format - 2 (MARC 300__p)" .
+
+<https://data.connectome.ch/duration/44%3A34%20%28MARC%20306__a%29> a <https://www.ica.org/standards/RiC/ontology#Extent>;
+  <https://www.ica.org/standards/RiC/ontology#quantity> "44:34 (MARC 306__a)";
+  <https://www.ica.org/standards/RiC/ontology#type> "duration" .
+
+<https://data.connectome.ch/duration/32%3A21%20%28MARC%20306__a%29> a <https://www.ica.org/standards/RiC/ontology#Extent>;
+  <https://www.ica.org/standards/RiC/ontology#quantity> "32:21 (MARC 306__a)";
+  <https://www.ica.org/standards/RiC/ontology#type> "duration" .
+
+<https://data.connectome.ch/content/Type%20de%20document%20-%201%20%28MARC%20336__a%29>
+  a <https://www.ica.org/standards/RiC/ontology#ContentType>;
+  <https://www.ica.org/standards/RiC/ontology#name> "Type de document - 1 (MARC 336__a)" .
+
+<https://data.connectome.ch/content/Manuscrits> a <https://www.ica.org/standards/RiC/ontology#ContentType>;
+  <https://www.ica.org/standards/RiC/ontology#name> "Manuscrits";
+  <https://www.ica.org/standards/RiC/ontology#identifier> "174971" .
+
+<https://data.connectome.ch/medium/Caractéristiques%20matérielles%20%28340__a%29>
+  a <https://www.ica.org/standards/RiC/ontology#CarrierType>;
+  <https://www.ica.org/standards/RiC/ontology#physicalCharacteristics> "Caractéristiques matérielles (340__a)" .
+
+<https://data.connectome.ch/format/Format%20de%20fichier%20informatique%20-%202%20%28MARC%20347__a%29>
+  a <https://www.ica.org/standards/RiC/ontology#CarrierType>;
+  <https://www.ica.org/standards/RiC/ontology#name> "Format de fichier informatique - 2 (MARC 347__a)";
+  <http://id.loc.gov/vocabulary/preservation/encoding> "Encodage du fichier - 2 (MARC 347__b)" .

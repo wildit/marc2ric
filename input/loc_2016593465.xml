@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record>
+  <leader>01296cam a2200361 i 4500</leader>
+  <controlfield tag="001">19418212</controlfield>
+  <controlfield tag="005">20170215133415.0</controlfield>
+  <controlfield tag="008">161216s2016    sz a     b    000 0 ger  </controlfield>
+  <datafield ind1=" " ind2=" " tag="906">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">origres</subfield>
+    <subfield code="d">3</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-gencatlg</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="925">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">1 shelf copy</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="955">
+    <subfield code="b">ff70 2017-02-02 Telework</subfield>
+    <subfield code="a">ff00 2017-02-03 to GS/SBCG</subfield>
+    <subfield code="i">ff12 2017-02-15 to BCCD</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="010">
+    <subfield code="a">  2016593465</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">9783039194063 (pbk.)</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">3039194062 (pbk.)</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(GyWOH)har160240892</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">DLC</subfield>
+    <subfield code="b">eng</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="e">rda</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="042">
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="043">
+    <subfield code="a">e-sz---</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="050">
+    <subfield code="a">HD9695.S94</subfield>
+    <subfield code="b">B355 2016</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="100">
+    <subfield code="a">Meier, Bruno,</subfield>
+    <subfield code="e">author</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="0" tag="245">
+    <subfield code="a">Company Town :</subfield>
+    <subfield code="b">BBC/ABB und die Industriestadt Baden /</subfield>
+    <subfield code="c">Bruno Meier, Tobias Wildi.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="1" tag="264">
+    <subfield code="a">Baden :</subfield>
+    <subfield code="b">Hier und Jetzt,</subfield>
+    <subfield code="c">[2016]</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">183 pages :</subfield>
+    <subfield code="b">illustrations ;</subfield>
+    <subfield code="c">26 cm</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="336">
+    <subfield code="a">text</subfield>
+    <subfield code="b">txt</subfield>
+    <subfield code="2">rdacontent</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="337">
+    <subfield code="a">unmediated</subfield>
+    <subfield code="b">n</subfield>
+    <subfield code="2">rdamedia</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="338">
+    <subfield code="a">volume</subfield>
+    <subfield code="b">nc</subfield>
+    <subfield code="2">rdacarrier</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="504">
+    <subfield code="a">Includes bibliographical references (pages 180-181).</subfield>
+  </datafield>
+  <datafield ind1="2" ind2="0" tag="610">
+    <subfield code="a">ABB Asea Brown Boveri Ltd.</subfield>
+  </datafield>
+  <datafield ind1="2" ind2="0" tag="610">
+    <subfield code="a">BBC Aktiengesellschaft Brown Boveri &amp; Cie.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Electric machinery industry</subfield>
+    <subfield code="z">Switzerland</subfield>
+    <subfield code="x">Pictorial works.</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Wildi, Tobias,</subfield>
+    <subfield code="e">author</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="923">
+    <subfield code="d">20161219</subfield>
+    <subfield code="n">0125285</subfield>
+    <subfield code="s">GyWOH</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="985">
+    <subfield code="e">VENDOR LOAD</subfield>
+  </datafield>
+</record>

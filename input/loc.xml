@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record>
+  <leader>02136nkd a22004217a 4500</leader>
+  <controlfield tag="001">15594950</controlfield>
+  <controlfield tag="005">20090122162700.0</controlfield>
+  <controlfield tag="007">cr||||||||||||</controlfield>
+  <controlfield tag="007">kj||||</controlfield>
+  <controlfield tag="008">940524s1855    mdunnn| |||||u||||kneng  </controlfield>
+  <datafield ind1=" " ind2=" " tag="010">
+    <subfield code="a">  2008661573</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(DLC)app1994000378/PP</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="037">
+    <subfield code="a">LC-USZ62-89302</subfield>
+    <subfield code="b">DLC</subfield>
+    <subfield code="c">(b&amp;w film copy neg.)</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="e">gihc</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="050">
+    <subfield code="a">LOT 10615-34</subfield>
+    <subfield code="b">[item]</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="245">
+    <subfield code="a">Old Dominion polka</subfield>
+    <subfield code="h">[graphic].</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">Baltimore :</subfield>
+    <subfield code="b">Published by Miller &amp; Beacham,</subfield>
+    <subfield code="c">1855.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">1 print :</subfield>
+    <subfield code="b">lithograph printed in black and buff ;</subfield>
+    <subfield code="c">27.3 x 20 cm. (image)</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Lith. by A. Hoen &amp; Co. Balto.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">The Library's impression of the music sheet was deposited for copyright by the publishers on January 26, 1855.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Title appears as it is written on the item.</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="520">
+    <subfield code="a">An illustrated sheet music cover for a polka composed by Henry Bellman. Within a circular, ornamental border is an allegorical scene based on the seal of the State of Virginia.  A helmeted female figure armed with a spear and sword (probably Minerva) stands on the figure of a fallen despot.  The latter's crown and broken scepter appear near him on the ground. The scene is also littered with broken manacles and a cross.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="540">
+    <subfield code="a">No known restrictions on publication.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="581">
+    <subfield code="a">Published in: American political prints, 1766-1876 / Bernard F. Reilly. Boston : G.K. Hall, 1991, entry 1855-1.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="4" tag="650">
+    <subfield code="a">Minerva (Roman deity)</subfield>
+    <subfield code="y">1850-1860.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="4" tag="651">
+    <subfield code="a">Virginia</subfield>
+    <subfield code="y">1850-1860.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="7" tag="655">
+    <subfield code="a">Lithographs</subfield>
+    <subfield code="y">1850-1860.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="7" tag="655">
+    <subfield code="a">Sheet music covers</subfield>
+    <subfield code="y">1850-1860.</subfield>
+    <subfield code="2">gmgpc</subfield>
+  </datafield>
+  <datafield ind1="2" ind2=" " tag="710">
+    <subfield code="a">A. Hoen &amp; Co.</subfield>
+  </datafield>
+  <datafield ind1="2" ind2=" " tag="710">
+    <subfield code="a">Miller &amp; Beacham.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="852">
+    <subfield code="a">Library of Congress</subfield>
+    <subfield code="b">Prints and Photographs Division</subfield>
+    <subfield code="e">Washington, D.C. 20540 USA</subfield>
+    <subfield code="n">dcu</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.pnp/pp.print</subfield>
+  </datafield>
+  <datafield ind1="4" ind2="1" tag="856">
+    <subfield code="3">digital file from b&amp;w film copy neg.</subfield>
+    <subfield code="d">cph</subfield>
+    <subfield code="f">3b35680</subfield>
+    <subfield code="q">p</subfield>
+    <subfield code="u">http://hdl.loc.gov/loc.pnp/cph.3b35680</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="906">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">orignew</subfield>
+    <subfield code="d">u</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-printpho</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="985">
+    <subfield code="a">pp/cph</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="985">
+    <subfield code="a">pp/app</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="985">
+    <subfield code="e">pp/minload</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="985">
+    <subfield code="a">pp/diof</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="991">
+    <subfield code="b">c-P&amp;P</subfield>
+    <subfield code="h">LOT 10615-34</subfield>
+    <subfield code="i">[item]</subfield>
+    <subfield code="o">ppsd</subfield>
+    <subfield code="v">obj.</subfield>
+  </datafield>
+</record>

@@ -1,0 +1,259 @@
+source-group Patrinum {
+	logical-source language {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record/datafield[@tag='041']"
+	
+	referenceables
+		datafield_041_a "subfield[@code='a']"
+		}
+
+	logical-source author {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record/datafield[@tag='100']"
+	
+	referenceables
+		datafield_100_a "subfield[@code='a']"
+		datafield_100_e "subfield[@code='e']"
+		}
+		
+	logical-source author_corporate {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record/datafield[@tag='110']"
+	
+	referenceables
+		datafield_110_a "subfield[@code='a']"
+		datafield_110_e "subfield[@code='e']"
+		}
+
+
+	logical-source event {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record/datafield[@tag='111']"
+	
+	referenceables
+		datafield_111_a "subfield[@code='a']"
+		datafield_111_0 "subfield[@code='0']"
+		}
+
+	logical-source title {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record/datafield[@tag='245']"
+	
+	referenceables
+		datafield_245_a "subfield[@code='a']" // Title
+		datafield_245_b "subfield[@code='b']" // Remainder of title, Subtitle
+		datafield_245_c "subfield[@code='c']" // Statement of responsibility -- not mapped
+		}
+	
+	logical-source othertitle {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record/datafield[@tag='246']"
+	
+	referenceables
+		datafield_246_a "subfield[@code='a']" // Other Title
+		}
+		
+		
+	logical-source publisher {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record/datafield[@tag='260']"
+	
+	referenceables
+		datafield_260_a "subfield[@code='a']" // Place of Publication
+		datafield_260_b "subfield[@code='b']" // Publisher
+		datafield_260_0 "subfield[@code='0']" // Publisher ID	
+		}
+
+	logical-source extent {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record/datafield[@tag='300']"
+	
+	referenceables
+		datafield_300_a "subfield[@code='a']" // Extent
+		datafield_300_c "subfield[@code='c']" // Dimension
+		datafield_300_k "subfield[@code='k']" // Material
+		datafield_300_p "subfield[@code='p']" // Other information on format
+		datafield_300_0 "subfield[@code='0']"
+		
+		}
+
+	logical-source duration {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record/datafield[@tag='306']"
+	
+	referenceables
+		datafield_306_a "subfield[@code='a']" // playing time [min.]
+		
+		}	
+	
+	logical-source contentType {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record/datafield[@tag='336']"
+	
+	referenceables
+		datafield_336_a "subfield[@code='a']" // Content type term
+		datafield_336_0 "subfield[@code='0']" // Content type ID
+		
+		}		
+
+	logical-source physicalMedium {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record/datafield[@tag='340']"
+	
+	referenceables
+		datafield_340_a "subfield[@code='a']" // Material base
+		datafield_340_c "subfield[@code='c']" // Materials applied to surface
+		datafield_340_g "subfield[@code='g']" // Color
+		
+		}		
+
+	logical-source fileFormat {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record/datafield[@tag='347']"
+	
+	referenceables
+		datafield_347_a "subfield[@code='a']" // File type
+		datafield_347_b "subfield[@code='b']" // Encoding format		
+		}	
+
+	
+	logical-source record {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record"
+	
+	referenceables
+		controlfield001 "controlfield[@tag='001']"
+		controlfield005 "controlfield[@tag='005']"
+		controlfield008 "controlfield[@tag='008']"
+		datafield_024_2 "datafield[@tag='024']/subfield[@code='2']"
+		datafield_024_a "datafield[@tag='024']/subfield[@code='a']"
+		datafield_037_a "datafield[@tag='037']/subfield[@code='a']"
+		datafield_041_a "datafield[@tag='041']/subfield[@code='a']"
+		datafield_084_a "datafield[@tag='084']/subfield[@code='a']" //other classification number
+		datafield_100_a "datafield[@tag='100']/subfield[@code='a']"
+		datafield_100_e "datafield[@tag='100']/subfield[@code='e']" // personne physique
+		datafield_110_a "datafield[@tag='110']/subfield[@code='a']"
+		datafield_110_e "datafield[@tag='110']/subfield[@code='e']" // personne morale
+		datafield_111_a "datafield[@tag='111']/subfield[@code='a']" // Event
+		datafield_111_0 "datafield[@tag='111']/subfield[@code='0']"
+		datafield_245_a "datafield[@tag='245']/subfield[@code='a']" // Title
+		datafield_245_b "datafield[@tag='245']/subfield[@code='b']" // Remainder of title, Subtitle
+		datafield_245_c "datafield[@tag='245']/subfield[@code='c']" // Statement of responsibility  -- not mapped
+		datafield_246_a "datafield[@tag='246']/subfield[@code='a']" // Other Title
+		datafield_260_a "datafield[@tag='260']/subfield[@code='a']" // Place of Publication
+		datafield_260_b "datafield[@tag='260']/subfield[@code='b']" // Publisher
+		datafield_260_0 "datafield[@tag='260']/subfield[@code='0']" // Publisher ID
+		datafield_264_a "datafield[@tag='264']/subfield[@code='a']" // Place of Production -- not mapped
+		datafield_264_0 "datafield[@tag='264']/subfield[@code='0']" // Place of Production ID -- not mapped
+		datafield_269_a "datafield[@tag='269']/subfield[@code='a']" // ? Ask BCUL. Year?
+		datafield_269_b "datafield[@tag='269']/subfield[@code='b']" // ? Ask BCUL. Year?
+		datafield_300_a "datafield[@tag='300']/subfield[@code='a']" // Extent
+		datafield_300_c "datafield[@tag='300']/subfield[@code='c']" // Dimension
+		datafield_300_k "datafield[@tag='300']/subfield[@code='k']" // Material
+		datafield_300_p "datafield[@tag='300']/subfield[@code='p']" // Other information on format
+		datafield_300_0 "datafield[@tag='300']/subfield[@code='0']"
+		datafield_306_a "datafield[@tag='306']/subfield[@code='a']" // playing time [min.]
+		datafield_336_a "datafield[@tag='336']/subfield[@code='a']" // Content type term
+		datafield_336_0 "datafield[@tag='336']/subfield[@code='0']" // Content type ID
+		datafield_340_a "datafield[@tag='340']/subfield[@code='a']" // Material base
+		datafield_340_c "datafield[@tag='340']/subfield[@code='c']" // Materials applied to surface
+		datafield_340_g "datafield[@tag='340']/subfield[@code='g']" // Color
+		datafield_347_a "datafield[@tag='347']/subfield[@code='a']" // File type
+		datafield_347_b "datafield[@tag='347']/subfield[@code='b']" // Encoding format
+		datafield_351_c "datafield[@tag='351']/subfield[@code='c']" // Hierarchical level
+		datafield_500_a "datafield[@tag='500']/subfield[@code='a']" // General notes (public)
+		datafield_505_a "datafield[@tag='505']/subfield[@code='a']" // ToC
+		datafield_506_a "datafield[@tag='506']/subfield[@code='a']" // Conditions of Access
+		datafield_508_a "datafield[@tag='508']/subfield[@code='a']" // Creation/Production Credits Note
+		datafield_510_a "datafield[@tag='510']/subfield[@code='a']" // Citation, name of source
+		datafield_510_u "datafield[@tag='510']/subfield[@code='u']" // URI of Source
+		datafield_518_a "datafield[@tag='518']/subfield[@code='a']" // date/time event note
+		datafield_518_u "datafield[@tag='518']/subfield[@code='u']" // URI of event note
+		datafield_520_a "datafield[@tag='520']/subfield[@code='a']" // Summary, abstract
+		datafield_530_a "datafield[@tag='530']/subfield[@code='a']" // Additional physical form, copy
+		datafield_534_c "datafield[@tag='534']/subfield[@code='c']" // Publication of original
+		datafield_535_a "datafield[@tag='535']/subfield[@code='a']" // Custodian / Holder of originals
+		datafield_540_a "datafield[@tag='540']/subfield[@code='a']" // Terms for use + reproduction
+		datafield_540_c "datafield[@tag='540']/subfield[@code='c']" // Source of Authorization
+		datafield_542_f "datafield[@tag='542']/subfield[@code='f']" // Copyright statement, license
+		datafield_542_u "datafield[@tag='542']/subfield[@code='u']" // Link to license-document
+		datafield_544_a "datafield[@tag='544']/subfield[@code='a']" // Location of other archival material
+		datafield_544_u "datafield[@tag='544']/subfield[@code='u']" // URI of other archival material
+		datafield_545_a "datafield[@tag='545']/subfield[@code='a']" // Administrative/biographical history
+		datafield_555_a "datafield[@tag='555']/subfield[@code='a']" // Cumulative finding aid
+		datafield_555_u "datafield[@tag='555']/subfield[@code='u']" // URI of cumulative finding aid
+		datafield_561_a "datafield[@tag='561']/subfield[@code='a']" // Ownership and custodial history
+		datafield_581_a "datafield[@tag='581']/subfield[@code='a']" // Bibliography, publications about the material
+		datafield_584_a "datafield[@tag='584']/subfield[@code='a']" // Accumulation, new arrivals
+		datafield_590_a "datafield[@tag='590']/subfield[@code='a']" // Registration ? Ask BCUL
+		datafield_600_a "datafield[@tag='600']/subfield[@code='a']" // Subject: Personal Name
+		datafield_600_e "datafield[@tag='600']/subfield[@code='e']" // Subject: Role term
+		datafield_600_0 "datafield[@tag='600']/subfield[@code='0']" // Person ID
+		datafield_610_a "datafield[@tag='610']/subfield[@code='a']" // Subject: Corporate Name
+		datafield_610_e "datafield[@tag='610']/subfield[@code='e']" // Subject: Role term
+		datafield_610_0 "datafield[@tag='610']/subfield[@code='0']" // Subject: Corporation ID
+		datafield_611_a "datafield[@tag='611']/subfield[@code='a']" // Subject: Event
+		datafield_611_0 "datafield[@tag='611']/subfield[@code='0']" // Subject: Event ID
+		datafield_650_a "datafield[@tag='650']/subfield[@code='a']" // Subject: Topic, topical term
+		datafield_650_0 "datafield[@tag='650']/subfield[@code='0']" // Subject: Term ID
+		datafield_651_a "datafield[@tag='651']/subfield[@code='a']" // Subject: Geographic name
+		datafield_651_0 "datafield[@tag='651']/subfield[@code='0']" // Subject: Geographic name ID
+		datafield_655_a "datafield[@tag='655']/subfield[@code='a']" // Subject: Genre/form
+		datafield_655_0 "datafield[@tag='655']/subfield[@code='0']" // Subject: Genre/form ID
+		datafield_690_a "datafield[@tag='690']/subfield[@code='a']" // Subject: Publisher
+		datafield_690_0 "datafield[@tag='690']/subfield[@code='0']" // Subject: Publisher ID
+		datafield_691_a "datafield[@tag='691']/subfield[@code='a']" // Subject: Building
+		datafield_691_0 "datafield[@tag='691']/subfield[@code='0']" // Subject: Building ID
+		datafield_692_a "datafield[@tag='692']/subfield[@code='a']" // Subject: Oronyms
+		datafield_692_0 "datafield[@tag='692']/subfield[@code='0']" // Subject: Oronyms ID
+		datafield_694_a "datafield[@tag='694']/subfield[@code='a']" // Subject: Music instruments
+		datafield_694_0 "datafield[@tag='694']/subfield[@code='0']" // Subject: Music instruments ID
+		datafield_695_a "datafield[@tag='695']/subfield[@code='a']" // Subject: Music genre
+		datafield_695_0 "datafield[@tag='695']/subfield[@code='0']" // MSubject: usic genre ID
+		datafield_700_a "datafield[@tag='700']/subfield[@code='a']" // Personal name
+		datafield_700_c "datafield[@tag='700']/subfield[@code='c']" // Titles and other words associated with person
+		datafield_700_d "datafield[@tag='700']/subfield[@code='d']" // Dates associated with person
+		datafield_700_e "datafield[@tag='700']/subfield[@code='e']" // Role of a person
+		datafield_700_0 "datafield[@tag='700']/subfield[@code='0']" // Person ID
+		datafield_710_a "datafield[@tag='710']/subfield[@code='a']" // Corporate name
+		datafield_710_e "datafield[@tag='710']/subfield[@code='e']" // Role of a corporation
+		datafield_710_0 "datafield[@tag='710']/subfield[@code='0']" // Corporation ID
+		datafield_711_a "datafield[@tag='711']/subfield[@code='a']" // Event name
+		datafield_711_0 "datafield[@tag='711']/subfield[@code='0']" // Event ID
+		datafield_751_a "datafield[@tag='751']/subfield[@code='a']" // Geographical name, in Patrinum: Place of production of correspondence
+		}
+}
+
+xml-namespace-extension iso20022ns {
+	prefix "slim" "http://www.loc.gov/MARC21/slim" 
+	
+}
+		
+
+		

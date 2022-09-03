@@ -1,0 +1,199 @@
+output carml
+
+// Record
+map record from Patrinum.record { 
+	subject template "https://data.connectome.ch/Record/{0}" with controlfield001;
+	
+	types rico.Record
+	
+	properties
+		rico.identifier from controlfield001 ; // Identifier 001
+		rico.identifier from controlfield005 ; // Identifier 005
+		rico.identifier from controlfield008 ; // Identifier 008
+		rico.identifier from datafield_084_a ;
+		rico.ruleFollowed from datafield_037_a; // Description standard
+		rico.hasOrHadLanguage template "https://data.connectome.ch/language/{0}" with datafield_041_a;
+		rico.hasAuthor template "https://data.connectome.ch/author/{0}" with datafield_100_a;
+		rico.hasAuthor template "https://data.connectome.ch/author_corporate/{0}" with datafield_110_a;
+		rico.isAssociatedWithEvent template "https://data.connectome.ch/event/{0}" with datafield_111_a;
+		rico.hasOrHadTitle template "https://data.connectome.ch/title/{0}" with datafield_245_a;
+		rico.hasOrHadTitle template "https://data.connectome.ch/subtitle/{0}" with datafield_245_b;
+		rico.hasOrHadTitle template "https://data.connectome.ch/othertitle/{0}" with datafield_246_a;
+		rico.hasPublisher template "https://data.connectome.ch/publisher/{0}" with datafield_260_b;
+		rico.hasExtent template "https://data.connectome.ch/extent/{0}" with datafield_300_a;
+		rico.hasExtent template "https://data.connectome.ch/duration/{0}" with datafield_306_a;
+		rico.hasContentOfType template "https://data.connectome.ch/content/{0}" with datafield_336_a;		
+		rico.physicalCharacteristics from datafield_340_a;		
+		dct.format template "https://data.connectome.ch/format/{0}" with datafield_347_a;
+		rico.typ from datafield_351_c; //Hierarchical level
+		rico.descriptiveNote from datafield_351_c; // Notes
+		dct.tableOfContents from datafield_505_a; // ToC
+		rico.conditionsOfAccess from datafield_506_a; // Conditions of Access
+		rico.descriptiveNote from datafield_520_a;
+}
+
+
+//Languages
+map language from Patrinum.language { 
+	subject template "https://data.connectome.ch/language/{0}" with datafield_041_a;
+	
+	types rico.Language
+	
+	properties
+		rico.name from datafield_041_a ; // Occurring Language
+		
+}
+
+
+//Author
+map author from Patrinum.author { 
+	subject template "https://data.connectome.ch/author/{0}" with datafield_100_a;
+	
+	types rico.Person
+	
+	properties
+		rico.name from datafield_100_a ; // Author
+		rico.typ from datafield_100_e ;
+		
+}
+
+//Author Corporate
+map author_corporate from Patrinum.author_corporate { 
+	subject template "https://data.connectome.ch/author_corporate/{0}" with datafield_110_a;
+	
+	types rico.Group
+	
+	properties
+		rico.name from datafield_110_a ; // Author
+		rico.typ from datafield_110_e ; // role
+		
+}
+
+
+//Event
+map event from Patrinum.event { 
+	subject template "https://data.connectome.ch/event/{0}" with datafield_111_a;
+	
+	types rico.Activity
+	
+	properties
+		rico.name from datafield_111_a ; // Event name
+		rico.identifier from datafield_111_0; // role
+		
+}
+
+//Title
+map title from Patrinum.title { 
+	subject template "https://data.connectome.ch/title/{0}" with datafield_245_a;
+	
+	types rico.Title
+	
+	properties
+		rico.title from datafield_245_a ; // Title
+		rico.typ constant "main title"; // type
+		
+}
+
+//Subtitle
+map subtitle from Patrinum.title { 
+	subject template "https://data.connectome.ch/subtitle/{0}" with datafield_245_b;
+	
+	types rico.Title
+	
+	properties
+		rico.title from datafield_245_b ; // Event name
+		rico.typ constant "subtitle"; // type
+		
+}
+
+
+//Other Title
+map othertitle from Patrinum.othertitle { 
+	subject template "https://data.connectome.ch/othertitle/{0}" with datafield_246_a;
+	
+	types rico.Title
+	
+	properties
+		rico.title from datafield_246_a ; // Other Title
+		rico.typ constant "other title"; // type
+		
+}
+
+
+//Publication
+map publisher from Patrinum.publisher { 
+	subject template "https://data.connectome.ch/publisher/{0}" with datafield_260_b;
+	
+	types rico.Group
+	
+	properties
+		rico.name from datafield_260_b ; // Publisher Name
+		rico.location from datafield_260_a ; // Place of Publication -- to be discussed if this is the correct mapping
+		rico.identifier from datafield_260_0 ; // Publisher ID
+		
+}
+
+
+// Extent
+map extent from Patrinum.extent { 
+	subject template "https://data.connectome.ch/extent/{0}" with datafield_300_a;
+	
+	types rico.Extent
+	
+	properties
+		rico.quantity from datafield_300_a; // Extent
+		rico.measure from datafield_300_c ; // Physical dimensions
+		rico.physicalCharacteristics from datafield_300_k; // Material
+		rico.textual from datafield_300_p ; // Other textual info on extent
+		rico.identifier from datafield_300_0 ;
+				
+}
+
+// Duration
+map duration from Patrinum.duration { 
+	subject template "https://data.connectome.ch/duration/{0}" with datafield_306_a;
+	
+	types rico.Extent
+	
+	properties
+		rico.quantity from datafield_306_a; // Duration
+		rico.typ constant "duration";
+				
+}
+
+// Content Type
+map contentType from Patrinum.contentType { 
+	subject template "https://data.connectome.ch/content/{0}" with datafield_336_a;
+	
+	types rico.ContentType
+	
+	properties
+		rico.name from datafield_336_a; // Content Type
+		rico.identifier from datafield_336_0;
+				
+}
+
+// Physical Medium
+map physicalMedium from Patrinum.physicalMedium { 
+	subject template "https://data.connectome.ch/medium/{0}" with datafield_340_a;
+	
+	types rico.CarrierType
+	
+	properties
+		rico.physicalCharacteristics from datafield_340_a; // Material base
+		rico.productionTechnique from datafield_340_c;
+		rico.typ from datafield_340_g; // Color --> what could be a better mapping?
+				
+}
+
+// File Format Type
+map fileFormat from Patrinum.fileFormat { 
+	subject template "https://data.connectome.ch/format/{0}" with datafield_347_a;
+	
+	types rico.CarrierType
+	
+	properties
+		rico.name from datafield_347_a; // Material base
+		premis.encodin from datafield_347_b;
+				
+}

@@ -1,0 +1,87 @@
+vocabulary rico {
+	prefix "rico" "https://www.ica.org/standards/RiC/ontology#"
+
+	classes
+		Thing
+		Agent
+		CarrierType
+		ContentType
+		Group
+		Person
+		Place
+		RecordResource
+		Record
+		RecordPart
+		RecordSet
+		Instantiation
+		Event 
+		Extent
+		Activity
+		Name 
+		Title 
+		Identifier 
+		Language
+		
+		
+		
+	properties
+		// data properties
+		conditionsOfAccess
+		identifier
+		title
+		date
+		descriptiveNote
+		isOrWasLanguageOf
+		location
+		measure
+		name
+		physicalCharacteristics
+		productionTechnique
+		quantity
+		ruleFollowed
+		textual
+		typ "type"
+
+		// object properties
+		hasCategory
+		hasAuthor
+		hasExtent
+		hasOrHadIdentifier
+		hasOrHadLocation
+		hasOrHadTitle
+		hasPublisher
+		hasContentOfType
+		isAssociatedWithEvent
+		hasOrHadLanguage
+}
+
+
+vocabulary dct {
+	prefix "dct" "http://purl.org/dc/terms/"
+
+	classes
+		FileFormat
+	properties
+		format
+		tableOfContents
+}
+
+
+vocabulary premis {
+	prefix "premis" "http://id.loc.gov/vocabulary/preservation/"
+
+	classes
+		
+	properties
+		 encodin "encoding"
+		
+}
+
+vocabulary rescs {
+	prefix "rescs" "http://rescs.org/"
+
+	classes
+
+	properties
+		
+}
