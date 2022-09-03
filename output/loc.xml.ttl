@@ -1,11 +1,30 @@
 
 <https://data.connectome.ch/Record/15594950> a <https://www.ica.org/standards/RiC/ontology#Record>;
-  <https://www.ica.org/standards/RiC/ontology#identifier> "15594950", "20090122162700.0";
+  <https://www.ica.org/standards/RiC/ontology#identifier> <https://data.connectome.ch/identifier1/15594950>,
+    <https://data.connectome.ch/identifier5/20090122162700.0>, <https://data.connectome.ch/identifier8/940524s1855%20%20%20%20mdunnn%7C%20%7C%7C%7C%7C%7Cu%7C%7C%7C%7Ckneng%20%20>,
+    <https://data.connectome.ch/identifier010/%20%202008661573>;
   <https://www.ica.org/standards/RiC/ontology#ruleFollowed> "LC-USZ62-89302";
   <https://www.ica.org/standards/RiC/ontology#hasOrHadTitle> <https://data.connectome.ch/title/Old%20Dominion%20polka>;
   <https://www.ica.org/standards/RiC/ontology#hasPublisher> <https://data.connectome.ch/publisher/Published%20by%20Miller%20%26%20Beacham%2C>;
   <https://www.ica.org/standards/RiC/ontology#hasExtent> <https://data.connectome.ch/extent/1%20print%20%3A>;
   <https://www.ica.org/standards/RiC/ontology#descriptiveNote> "An illustrated sheet music cover for a polka composed by Henry Bellman. Within a circular, ornamental border is an allegorical scene based on the seal of the State of Virginia.  A helmeted female figure armed with a spear and sword (probably Minerva) stands on the figure of a fallen despot.  The latter's crown and broken scepter appear near him on the ground. The scene is also littered with broken manacles and a cross." .
+
+<https://data.connectome.ch/identifier1/15594950> a <https://www.ica.org/standards/RiC/ontology#Identifier>;
+  <https://www.ica.org/standards/RiC/ontology#identifier> "15594950";
+  <https://www.ica.org/standards/RiC/ontology#type> "Control Number" .
+
+<https://data.connectome.ch/identifier5/20090122162700.0> a <https://www.ica.org/standards/RiC/ontology#Identifier>;
+  <https://www.ica.org/standards/RiC/ontology#identifier> "20090122162700.0";
+  <https://www.ica.org/standards/RiC/ontology#type> "Date and Time of Latest Transaction" .
+
+<https://data.connectome.ch/identifier8/940524s1855%20%20%20%20mdunnn%7C%20%7C%7C%7C%7C%7Cu%7C%7C%7C%7Ckneng%20%20>
+  a <https://www.ica.org/standards/RiC/ontology#Identifier>;
+  <https://www.ica.org/standards/RiC/ontology#identifier> "940524s1855    mdunnn| |||||u||||kneng  ";
+  <https://www.ica.org/standards/RiC/ontology#type> "Fixed-Length Data Elements" .
+
+<https://data.connectome.ch/identifier010/%20%202008661573> a <https://www.ica.org/standards/RiC/ontology#Identifier>;
+  <https://www.ica.org/standards/RiC/ontology#identifier> "  2008661573";
+  <https://www.ica.org/standards/RiC/ontology#type> "Library of Congress Control Number" .
 
 <https://data.connectome.ch/title/Old%20Dominion%20polka> a <https://www.ica.org/standards/RiC/ontology#Title>;
   <https://www.ica.org/standards/RiC/ontology#title> "Old Dominion polka";

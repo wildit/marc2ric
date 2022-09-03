@@ -1,4 +1,56 @@
 source-group Patrinum {
+
+	logical-source identifier1 {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record"
+	
+	referenceables
+		controlfield001 "controlfield[@tag='001']"
+
+		}
+
+	logical-source identifier3 {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record"
+	
+	referenceables
+		controlfield003 "controlfield[@tag='003']"
+		}
+
+	logical-source identifier5 {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record"
+	
+	referenceables
+		controlfield005 "controlfield[@tag='005']"
+		}
+
+	logical-source identifier8 {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record"
+	
+	referenceables
+		controlfield008 "controlfield[@tag='008']"
+		}
+
+	logical-source identifier010 {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record"
+	
+	referenceables
+		datafield_010_a "datafield[@tag='010']/subfield[@code='a']"
+		}
+
 	logical-source language {
 	type xml
 	source "stdin"
@@ -66,7 +118,7 @@ source-group Patrinum {
 		}
 		
 		
-	logical-source publisher {
+	logical-source publisher260 {
 	type xml
 	source "stdin"
 	xml-namespace-extension iso20022ns
@@ -76,6 +128,18 @@ source-group Patrinum {
 		datafield_260_a "subfield[@code='a']" // Place of Publication
 		datafield_260_b "subfield[@code='b']" // Publisher
 		datafield_260_0 "subfield[@code='0']" // Publisher ID	
+		}
+	
+	logical-source publisher264 {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record/datafield[@tag='264']"
+	
+	referenceables
+		datafield_264_a "subfield[@code='a']" // Place of production, publication, distribution, manufacture
+		datafield_264_b "subfield[@code='b']" // Publisher
+		datafield_264_c "subfield[@code='0']" // Publisher ID	
 		}
 
 	logical-source extent {
@@ -112,9 +176,23 @@ source-group Patrinum {
 	
 	referenceables
 		datafield_336_a "subfield[@code='a']" // Content type term
+		datafield_336_b "subfield[@code='b']" // Content type code
 		datafield_336_0 "subfield[@code='0']" // Content type ID
 		
 		}		
+
+	logical-source mediaType {
+	type xml
+	source "stdin"
+	xml-namespace-extension iso20022ns
+	iterator "/record/datafield[@tag='336']"
+	
+	referenceables
+		datafield_337_a "subfield[@code='a']" // Media type term
+		datafield_337_b "subfield[@code='b']" // Media type code
+		datafield_337_0 "subfield[@code='0']" // Media type ID
+		
+		}	
 
 	logical-source physicalMedium {
 	type xml
@@ -149,8 +227,10 @@ source-group Patrinum {
 	
 	referenceables
 		controlfield001 "controlfield[@tag='001']"
+		controlfield003 "controlfield[@tag='003']"
 		controlfield005 "controlfield[@tag='005']"
 		controlfield008 "controlfield[@tag='008']"
+		datafield_010_a "datafield[@tag='010']/subfield[@code='a']"
 		datafield_024_2 "datafield[@tag='024']/subfield[@code='2']"
 		datafield_024_a "datafield[@tag='024']/subfield[@code='a']"
 		datafield_037_a "datafield[@tag='037']/subfield[@code='a']"
@@ -169,10 +249,11 @@ source-group Patrinum {
 		datafield_260_a "datafield[@tag='260']/subfield[@code='a']" // Place of Publication
 		datafield_260_b "datafield[@tag='260']/subfield[@code='b']" // Publisher
 		datafield_260_0 "datafield[@tag='260']/subfield[@code='0']" // Publisher ID
-		datafield_264_a "datafield[@tag='264']/subfield[@code='a']" // Place of Production -- not mapped
-		datafield_264_0 "datafield[@tag='264']/subfield[@code='0']" // Place of Production ID -- not mapped
-		datafield_269_a "datafield[@tag='269']/subfield[@code='a']" // ? Ask BCUL. Year?
-		datafield_269_b "datafield[@tag='269']/subfield[@code='b']" // ? Ask BCUL. Year?
+		datafield_264_a "datafield[@tag='264']/subfield[@code='a']" // Place of Production
+		datafield_264_b "datafield[@tag='264']/subfield[@code='b']" // Name of producer, publisher, distributor, manufacturer
+		datafield_264_0 "datafield[@tag='264']/subfield[@code='0']" // Place of Production ID
+		datafield_269_a "datafield[@tag='269']/subfield[@code='a']" //  
+		datafield_269_b "datafield[@tag='269']/subfield[@code='b']" // 
 		datafield_300_a "datafield[@tag='300']/subfield[@code='a']" // Extent
 		datafield_300_c "datafield[@tag='300']/subfield[@code='c']" // Dimension
 		datafield_300_k "datafield[@tag='300']/subfield[@code='k']" // Material
@@ -181,6 +262,7 @@ source-group Patrinum {
 		datafield_306_a "datafield[@tag='306']/subfield[@code='a']" // playing time [min.]
 		datafield_336_a "datafield[@tag='336']/subfield[@code='a']" // Content type term
 		datafield_336_0 "datafield[@tag='336']/subfield[@code='0']" // Content type ID
+		datafield_337_a "datafield[@tag='337']/subfield[@code='a']" // Media/Representation type term
 		datafield_340_a "datafield[@tag='340']/subfield[@code='a']" // Material base
 		datafield_340_c "datafield[@tag='340']/subfield[@code='c']" // Materials applied to surface
 		datafield_340_g "datafield[@tag='340']/subfield[@code='g']" // Color
@@ -211,7 +293,7 @@ source-group Patrinum {
 		datafield_561_a "datafield[@tag='561']/subfield[@code='a']" // Ownership and custodial history
 		datafield_581_a "datafield[@tag='581']/subfield[@code='a']" // Bibliography, publications about the material
 		datafield_584_a "datafield[@tag='584']/subfield[@code='a']" // Accumulation, new arrivals
-		datafield_590_a "datafield[@tag='590']/subfield[@code='a']" // Registration ? Ask BCUL
+		datafield_590_a "datafield[@tag='590']/subfield[@code='a']" // 
 		datafield_600_a "datafield[@tag='600']/subfield[@code='a']" // Subject: Personal Name
 		datafield_600_e "datafield[@tag='600']/subfield[@code='e']" // Subject: Role term
 		datafield_600_0 "datafield[@tag='600']/subfield[@code='0']" // Person ID

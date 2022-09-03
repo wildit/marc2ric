@@ -13,6 +13,7 @@ vocabulary rico {
 		Record
 		RecordPart
 		RecordSet
+		RepresentationType
 		Instantiation
 		Event 
 		Extent
@@ -51,6 +52,7 @@ vocabulary rico {
 		hasOrHadTitle
 		hasPublisher
 		hasContentOfType
+		hasRepresentationType
 		isAssociatedWithEvent
 		hasOrHadLanguage
 }

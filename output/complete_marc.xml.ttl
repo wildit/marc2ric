@@ -1,7 +1,7 @@
 
 <https://data.connectome.ch/Record/173427> a <https://www.ica.org/standards/RiC/ontology#Record>;
-  <https://www.ica.org/standards/RiC/ontology#identifier> "173427", "20211007005827.0",
-    "IS 9999/7/24#45-01020304050060708-09-1011121314151617181920 (MARC 084__a)";
+  <https://www.ica.org/standards/RiC/ontology#identifier> <https://data.connectome.ch/identifier1/173427>,
+    <https://data.connectome.ch/identifier5/20211007005827.0>, "IS 9999/7/24#45-01020304050060708-09-1011121314151617181920 (MARC 084__a)";
   <https://www.ica.org/standards/RiC/ontology#ruleFollowed> "ISADG";
   <https://www.ica.org/standards/RiC/ontology#hasOrHadLanguage> <https://data.connectome.ch/language/fre>,
     <https://data.connectome.ch/language/ger>, <https://data.connectome.ch/language/eng>;
@@ -30,6 +30,14 @@
     "(Marc 520__a) seconde description.";
   <http://purl.org/dc/terms/tableOfContents> "Table des matières (MARC 505__a)";
   <https://www.ica.org/standards/RiC/ontology#conditionsOfAccess> "Conditions d'accès (MARC 506__a)" .
+
+<https://data.connectome.ch/identifier1/173427> a <https://www.ica.org/standards/RiC/ontology#Identifier>;
+  <https://www.ica.org/standards/RiC/ontology#identifier> "173427";
+  <https://www.ica.org/standards/RiC/ontology#type> "Control Number" .
+
+<https://data.connectome.ch/identifier5/20211007005827.0> a <https://www.ica.org/standards/RiC/ontology#Identifier>;
+  <https://www.ica.org/standards/RiC/ontology#identifier> "20211007005827.0";
+  <https://www.ica.org/standards/RiC/ontology#type> "Date and Time of Latest Transaction" .
 
 <https://data.connectome.ch/language/fre> a <https://www.ica.org/standards/RiC/ontology#Language>;
   <https://www.ica.org/standards/RiC/ontology#name> "fre" .
@@ -106,6 +114,21 @@
 <https://data.connectome.ch/publisher/Klausfelder%20SA> a <https://www.ica.org/standards/RiC/ontology#Group>;
   <https://www.ica.org/standards/RiC/ontology#name> "Klausfelder SA";
   <https://www.ica.org/standards/RiC/ontology#identifier> "234692" .
+
+<https://data.connectome.ch/publisher/Lieu%20de%20production%201%20%28MARC%20264__a%29>
+  a <https://www.ica.org/standards/RiC/ontology#Group>;
+  <https://www.ica.org/standards/RiC/ontology#location> "Lieu de production 1 (MARC 264__a)" .
+
+<https://data.connectome.ch/publisher/Lieu%20de%20production%202%20%28MARC%20264__a%29>
+  a <https://www.ica.org/standards/RiC/ontology#Group>;
+  <https://www.ica.org/standards/RiC/ontology#location> "Lieu de production 2 (MARC 264__a)" .
+
+<https://data.connectome.ch/publisher/Lausanne%20%28Suisse%2C%20VD%29> a <https://www.ica.org/standards/RiC/ontology#Group>;
+  <https://www.ica.org/standards/RiC/ontology#location> "Lausanne (Suisse, VD)";
+  <https://www.ica.org/standards/RiC/ontology#date> "241491" .
+
+<https://data.connectome.ch/publisher/Losona> a <https://www.ica.org/standards/RiC/ontology#Group>;
+  <https://www.ica.org/standards/RiC/ontology#location> "Losona" .
 
 <https://data.connectome.ch/extent/Collation%20-%201%20%28MARC%20300__a%29> a <https://www.ica.org/standards/RiC/ontology#Extent>;
   <https://www.ica.org/standards/RiC/ontology#quantity> "Collation - 1 (MARC 300__a)";

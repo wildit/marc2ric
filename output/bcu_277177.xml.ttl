@@ -1,12 +1,26 @@
 
 <https://data.connectome.ch/Record/277177> a <https://www.ica.org/standards/RiC/ontology#Record>;
-  <https://www.ica.org/standards/RiC/ontology#identifier> "277177", "20220407004642.0";
+  <https://www.ica.org/standards/RiC/ontology#identifier> <https://data.connectome.ch/identifier1/277177>,
+    <https://data.connectome.ch/identifier5/20220407004642.0>, <https://data.connectome.ch/identifier8/220406c%5C%5C%5C%5C%5C%5C%5C%5Csz%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C00000%5Cfre%5Cd>;
   <https://www.ica.org/standards/RiC/ontology#ruleFollowed> "PERIOD_B";
   <https://www.ica.org/standards/RiC/ontology#hasOrHadLanguage> <https://data.connectome.ch/language/fre>;
   <https://www.ica.org/standards/RiC/ontology#hasOrHadTitle> <https://data.connectome.ch/title/Passion%20montagne>,
     <https://data.connectome.ch/subtitle/journal%20de%20la%20section%20des%20Diablerets%20%3A%20section%20lausannoise%20du%20Club%20alpin%20suisse%20et%20sous-sections%20de%20Château-d%27Oex%2C%20Morges%2C%20Payerne%20et%20Vallorbe>;
   <https://www.ica.org/standards/RiC/ontology#hasPublisher> <https://data.connectome.ch/publisher/Club%20alpin%20suisse.%20Section%20des%20Diablerets>;
   <https://www.ica.org/standards/RiC/ontology#hasContentOfType> <https://data.connectome.ch/content/Revues> .
+
+<https://data.connectome.ch/identifier1/277177> a <https://www.ica.org/standards/RiC/ontology#Identifier>;
+  <https://www.ica.org/standards/RiC/ontology#identifier> "277177";
+  <https://www.ica.org/standards/RiC/ontology#type> "Control Number" .
+
+<https://data.connectome.ch/identifier5/20220407004642.0> a <https://www.ica.org/standards/RiC/ontology#Identifier>;
+  <https://www.ica.org/standards/RiC/ontology#identifier> "20220407004642.0";
+  <https://www.ica.org/standards/RiC/ontology#type> "Date and Time of Latest Transaction" .
+
+<https://data.connectome.ch/identifier8/220406c%5C%5C%5C%5C%5C%5C%5C%5Csz%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C00000%5Cfre%5Cd>
+  a <https://www.ica.org/standards/RiC/ontology#Identifier>;
+  <https://www.ica.org/standards/RiC/ontology#identifier> "220406c\\\\\\\\\\\\\\\\sz\\\\\\\\\\\\\\\\\\\\\\\\00000\\fre\\d";
+  <https://www.ica.org/standards/RiC/ontology#type> "Fixed-Length Data Elements" .
 
 <https://data.connectome.ch/language/fre> a <https://www.ica.org/standards/RiC/ontology#Language>;
   <https://www.ica.org/standards/RiC/ontology#name> "fre" .
