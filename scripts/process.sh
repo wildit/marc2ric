@@ -11,10 +11,14 @@ else
   wget https://github.com/docuteam/carml-cli/releases/download/cli-1.1.2-docuteam/cli-1.1.2-SNAPSHOT-docuteam-jar-with-dependencies.jar
 fi
 
-
-if ! [ -x "$(command -v xsltproc)" ]; then
-  echo 'Error: xsltproc is not installed.' >&2
-  exit 1
+if [ -f "saxon9he.jar" ]
+then
+  echo "saxon has already been installed"
+else
+  # install saxon
+  wget https://sourceforge.net/projects/saxon/files/Saxon-HE/9.9/SaxonHE9-9-1-8J.zip
+  unzip SaxonHE9-9-1-8J.zip saxon9he.jar
+  rm SaxonHE9-9-1-8J.zip
 fi
 
 if [ ! -d ../output ]
@@ -29,8 +33,8 @@ fi
 for entry in `ls ../input/$search_dir`
 do
     echo $entry
-
-#    xsltproc --output '../input/tmp.xml' 'namespace.xslt' '../input/'$entry
-    java -jar -Dfile.encode=UTF-8 cli-1.1.2-SNAPSHOT-docuteam-jar-with-dependencies.jar -m ../src-gen/mapping.carml.ttl < '../input/'$entry > '../output/'$entry'.ttl'
+	java -jar saxon9he.jar -o:'../input/tmp.xml' '../input/'$entry preprocess.xslt
+	java -jar -Dfile.encode=UTF-8 cli-1.1.2-SNAPSHOT-docuteam-jar-with-dependencies.jar -m ../src-gen/mapping.carml.ttl < '../input/tmp.xml' > '../output/'$entry'.ttl'
+	rm '../input/tmp.xml'
 done
 

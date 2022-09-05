@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record xmlns="http://www.loc.gov/MARC21/slim" xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse">
+  <leader>01218cam a22003254a 4500</leader>
+  <controlfield tag="001">15298941</controlfield>
+  <controlfield tag="005">20080605131812.0</controlfield>
+  <controlfield tag="008">080521s2006    sz a          000 0 ger c</controlfield>
+  <datafield ind1=" " ind2=" " tag="906">
+    <subfield code="a">7</subfield>
+    <subfield code="b">cbc</subfield>
+    <subfield code="c">pccadap</subfield>
+    <subfield code="d">3</subfield>
+    <subfield code="e">ncip</subfield>
+    <subfield code="f">20</subfield>
+    <subfield code="g">y-gencatlg</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="925">
+    <subfield code="a">acquire</subfield>
+    <subfield code="b">1 shelf copy</subfield>
+    <subfield code="x">policy default</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="955">
+    <subfield code="a">of25 2008-05-21 z-processor to ASCD</subfield>
+    <subfield code="i">jx47 2008-06-05</subfield>
+    <subfield code="e">jx47 2008-06-05 to Dewey</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="010">
+    <subfield code="a">  2008395715</subfield>
+  </datafield>
+  <datafield ind1="7" ind2=" " tag="016">
+    <subfield code="a">980089212</subfield>
+    <subfield code="2">GyFmDB</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">9783038232728</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">3038232726</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC)ocm85243044</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">OHX</subfield>
+    <subfield code="c">OHX</subfield>
+    <subfield code="d">STF</subfield>
+    <subfield code="d">DLC</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="042">
+    <subfield code="a">pcc</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="050">
+    <subfield code="a">HD9695.S94</subfield>
+    <subfield code="b">B353 2006</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="245">
+    <subfield code="a">Industriewelt :</subfield>
+    <subfield code="b">historische Werkfotos der BBC 1890-1980 /</subfield>
+    <subfield code="c">[zusammengestellt von] Norbert Lang, Tobias Wildi.</subfield>
+  </datafield>
+  <datafield ind1="3" ind2=" " tag="246">
+    <subfield code="a">Industrie Welt</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">Zürich :</subfield>
+    <subfield code="b">Verlag Neue Zürcher Zeitung,</subfield>
+    <subfield code="c">c2006.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">175 p. :</subfield>
+    <subfield code="b">chiefly ill. ;</subfield>
+    <subfield code="c">29 cm.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="440">
+    <subfield code="a">NZZ libro</subfield>
+  </datafield>
+  <datafield ind1="2" ind2="0" tag="610">
+    <subfield code="a">BBC Aktiengesellschaft Brown Boveri &amp; Cie</subfield>
+    <subfield code="x">History</subfield>
+    <subfield code="v">Pictorial works.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Electric machinery industry</subfield>
+    <subfield code="z">Switzerland</subfield>
+    <subfield code="x">History</subfield>
+    <subfield code="v">Pictorial works.</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Lang, Norbert.</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Wildi, Tobias.</subfield>
+  </datafield>
+  <datafield ind1="2" ind2=" " tag="710">
+    <subfield code="a">BBC Aktiengesellschaft Brown Boveri &amp; Cie.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="923">
+    <subfield code="d">20080331</subfield>
+    <subfield code="n">50165273</subfield>
+    <subfield code="s">93001715</subfield>
+  </datafield>
+</record>
